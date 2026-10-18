@@ -1,0 +1,9 @@
+{
+  "experiment_id": "instruction-capacity-development-v5-20261019",
+  "source_head": "c16f6c005ab98cbcee3ff3785823dfcf88bbdf0b",
+  "protocol_sha256": "401de20261a8ce4da54430449a81e5a22457f8bb292584ecf30e872166ff48fe",
+  "calls": 108,
+  "run_id": 39162919569,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
