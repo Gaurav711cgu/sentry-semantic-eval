@@ -13,3 +13,9 @@ Model identity, runtime, sources, forward/resource limits and request messages a
 Use standard ubuntu-24.04 runners in this public repository. Do not switch to paid larger runners. No Actions caches or artifact uploads are configured. Bounded report bytes are compressed and split into job-log lines with a SHA-256 for later integrity checking. Model files live in a disposable directory and are removed after the owned process stops. No model weights are acquired or inferred on the owner's Mac.
 
 `python -m unittest -v` tests admission, exact model files, transcript completeness, resource bounds and grading. It never loads the model. `python run_probe.py` is for the protected manual CI job only. A failed quality gate remains failed; do not change consumed protocol/source, rerun a consumed job, fabricate human reviews, or declare independent final qualification from a public template set.
+
+## BF16 configuration experiment v6
+
+The immutable FP32 v5 attempt (run39162919569) consumed108 calls and completed0 forwards. Its load resource check failed before emitting load metrics, so the exact breached measurement is unknown. Worker stop and temporary cleanup succeeded; there is no semantic result.
+
+The separately frozen v6 protocol uses the same model,108 requests and quality/resource limits, but BF16 numerical precision. This is a configuration comparison, not a model-size-only ablation. It emits load measurements before enforcing the unchanged load limit, and records the unconstrained vocabulary top token from each existing forward. Letter scores remain unchanged; diagnostics cannot certify instruction following if the top token is not an allowed letter. No extra generation or inference calls are reserved. v6 has a distinct run-bound consumed grant, protocol and executable files; v5 remains untouched. Independent final qualification remains false.
