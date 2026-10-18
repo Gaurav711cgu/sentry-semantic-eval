@@ -1,0 +1,9 @@
+{
+  "experiment_id": "bf16-instruction-config-development-v6-20261019",
+  "source_head": "d30a024f27ea89d1cc4fa37bdb8e2b7129b35a37",
+  "protocol_sha256": "8992a361c95fa0733572ac8230d97d8137678566fd1baf6ba6d6f7876973fe01",
+  "calls": 108,
+  "run_id": 39163388530,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
