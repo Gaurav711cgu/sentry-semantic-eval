@@ -1,0 +1,698 @@
+[
+  {
+    "id": "diagnostic-direct-0",
+    "family": "diagnostic-direct",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-red",
+      "order-blue",
+      "order-green"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-direct-1",
+    "family": "diagnostic-direct",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-red",
+      "order-green",
+      "order-blue"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-direct-2",
+    "family": "diagnostic-direct",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-blue",
+      "order-red",
+      "order-green"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-direct-3",
+    "family": "diagnostic-direct",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-blue",
+      "order-green",
+      "order-red"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-direct-4",
+    "family": "diagnostic-direct",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-green",
+      "order-red",
+      "order-blue"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-direct-5",
+    "family": "diagnostic-direct",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-green",
+      "order-blue",
+      "order-red"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-distractor-0",
+    "family": "diagnostic-distractor",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-red",
+      "order-blue",
+      "order-green"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-distractor-1",
+    "family": "diagnostic-distractor",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-red",
+      "order-green",
+      "order-blue"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-distractor-2",
+    "family": "diagnostic-distractor",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-blue",
+      "order-red",
+      "order-green"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-distractor-3",
+    "family": "diagnostic-distractor",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-blue",
+      "order-green",
+      "order-red"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-distractor-4",
+    "family": "diagnostic-distractor",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-green",
+      "order-red",
+      "order-blue"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-distractor-5",
+    "family": "diagnostic-distractor",
+    "raw_target": "order-red",
+    "effect_target": "order-red",
+    "processing": [
+      "order-green",
+      "order-blue",
+      "order-red"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-absent-0",
+    "family": "diagnostic-absent",
+    "raw_target": "order-missing",
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-blue",
+      "order-green"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": "order-missing"
+  },
+  {
+    "id": "diagnostic-absent-1",
+    "family": "diagnostic-absent",
+    "raw_target": "order-missing",
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-green",
+      "order-blue"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": "order-missing"
+  },
+  {
+    "id": "diagnostic-absent-2",
+    "family": "diagnostic-absent",
+    "raw_target": "order-missing",
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-red",
+      "order-green"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": "order-missing"
+  },
+  {
+    "id": "diagnostic-absent-3",
+    "family": "diagnostic-absent",
+    "raw_target": "order-missing",
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-green",
+      "order-red"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": "order-missing"
+  },
+  {
+    "id": "diagnostic-absent-4",
+    "family": "diagnostic-absent",
+    "raw_target": "order-missing",
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-red",
+      "order-blue"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": "order-missing"
+  },
+  {
+    "id": "diagnostic-absent-5",
+    "family": "diagnostic-absent",
+    "raw_target": "order-missing",
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-blue",
+      "order-red"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": "order-missing"
+  },
+  {
+    "id": "diagnostic-ambiguous-0",
+    "family": "diagnostic-ambiguous",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-blue",
+      "order-green"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-ambiguous-1",
+    "family": "diagnostic-ambiguous",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-green",
+      "order-blue"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-ambiguous-2",
+    "family": "diagnostic-ambiguous",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-red",
+      "order-green"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-ambiguous-3",
+    "family": "diagnostic-ambiguous",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-green",
+      "order-red"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-ambiguous-4",
+    "family": "diagnostic-ambiguous",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-red",
+      "order-blue"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-ambiguous-5",
+    "family": "diagnostic-ambiguous",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-blue",
+      "order-red"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-negated-0",
+    "family": "diagnostic-negated",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-blue",
+      "order-green"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-negated-1",
+    "family": "diagnostic-negated",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-green",
+      "order-blue"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-negated-2",
+    "family": "diagnostic-negated",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-red",
+      "order-green"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-negated-3",
+    "family": "diagnostic-negated",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-green",
+      "order-red"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-negated-4",
+    "family": "diagnostic-negated",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-red",
+      "order-blue"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-negated-5",
+    "family": "diagnostic-negated",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-blue",
+      "order-red"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-conditional-0",
+    "family": "diagnostic-conditional",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-blue",
+      "order-green"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-conditional-1",
+    "family": "diagnostic-conditional",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-green",
+      "order-blue"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-conditional-2",
+    "family": "diagnostic-conditional",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-red",
+      "order-green"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-conditional-3",
+    "family": "diagnostic-conditional",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-green",
+      "order-red"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-conditional-4",
+    "family": "diagnostic-conditional",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-red",
+      "order-blue"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-conditional-5",
+    "family": "diagnostic-conditional",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-blue",
+      "order-red"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-quoted-0",
+    "family": "diagnostic-quoted",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-blue",
+      "order-green"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-quoted-1",
+    "family": "diagnostic-quoted",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-green",
+      "order-blue"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-quoted-2",
+    "family": "diagnostic-quoted",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-red",
+      "order-green"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-quoted-3",
+    "family": "diagnostic-quoted",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-green",
+      "order-red"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-quoted-4",
+    "family": "diagnostic-quoted",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-red",
+      "order-blue"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-quoted-5",
+    "family": "diagnostic-quoted",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-blue",
+      "order-red"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-shipped-0",
+    "family": "diagnostic-shipped",
+    "raw_target": "order-red",
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-green"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-shipped-1",
+    "family": "diagnostic-shipped",
+    "raw_target": "order-red",
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-blue"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-shipped-2",
+    "family": "diagnostic-shipped",
+    "raw_target": "order-red",
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-green"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-shipped-3",
+    "family": "diagnostic-shipped",
+    "raw_target": "order-red",
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-green"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-shipped-4",
+    "family": "diagnostic-shipped",
+    "raw_target": "order-red",
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-blue"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-shipped-5",
+    "family": "diagnostic-shipped",
+    "raw_target": "order-red",
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-blue"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": "order-red"
+  },
+  {
+    "id": "diagnostic-informational-0",
+    "family": "diagnostic-informational",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-blue",
+      "order-green"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-informational-1",
+    "family": "diagnostic-informational",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-red",
+      "order-green",
+      "order-blue"
+    ],
+    "first_listed": "order-red",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-informational-2",
+    "family": "diagnostic-informational",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-red",
+      "order-green"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-informational-3",
+    "family": "diagnostic-informational",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-blue",
+      "order-green",
+      "order-red"
+    ],
+    "first_listed": "order-blue",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-informational-4",
+    "family": "diagnostic-informational",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-red",
+      "order-blue"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": null
+  },
+  {
+    "id": "diagnostic-informational-5",
+    "family": "diagnostic-informational",
+    "raw_target": null,
+    "effect_target": null,
+    "processing": [
+      "order-green",
+      "order-blue",
+      "order-red"
+    ],
+    "first_listed": "order-green",
+    "grammar_prediction": null
+  }
+]
