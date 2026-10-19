@@ -1,0 +1,9 @@
+{
+  "experiment_id": "contrastive-causal-lm-v11-20261019",
+  "source_head": "cf48fa8742e9d349931d4205473368c3ea5e4aa1",
+  "protocol_sha256": "3edf70b501b3f0eb03e6cb9fe8e79b23ac1527e070d446162641523f281157a9",
+  "optimizer_steps_max": 128,
+  "run_id": 39299927609,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
