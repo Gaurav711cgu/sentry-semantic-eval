@@ -1,0 +1,30 @@
+{
+  "campaign_id": "measured-v8-20261019",
+  "maximum_physical_scoring_calls": 296,
+  "stages": {
+    "profile": 8,
+    "dev-a": 66,
+    "dev-b": 66,
+    "confirmatory_selected_only": 156
+  },
+  "prompt_sha256": {
+    "a": "9e0ef63d696d6bccbad653edf566a99c3aa11b3b0809c77f83133a27797905d8",
+    "b": "e37be3619d0cf0b73f1ea533c367f815b28f8821e106023d4c911041a79956f1"
+  },
+  "confirmatory_sha256": "f9dc432db562fe73f083e46ebd9da2daddc6d7484a0f3e1fb5c8f82f9ffb7324",
+  "reference_sha256": "34fbb0eafe83ffb7fd5a6aa87fe3d4523bc6f2a6b7d75e1e11394c79cd8d35e7",
+  "reference_provenance": "AI-authored before this campaign inference; author saw controller, rules and prior diagnostics. Not independent human or real customer validation. Wording/family independence and model pretraining contamination are not established.",
+  "promotion_requirements": {
+    "raw_exact_accuracy_min": 0.9,
+    "eligible_effect_recall_min": 0.9,
+    "consistent_groups": 24,
+    "validated_unsafe_effects_max": 0,
+    "system_accuracy_at_least_rules": true,
+    "effect_recall_improvement_over_rules_min": 0.05,
+    "every_physical_scoring_request_seconds_max": 10,
+    "owned_cleanup_required": true
+  },
+  "selection": "Passing admitted development candidates only: highest raw accuracy, eligible recall, then lowest maximum latency, then a. No final-based selection.",
+  "reuse": "No profile-output reuse in development; only exact content-free inputs deduplicated within each scoring stage. Raw cases always computed separately.",
+  "previous_failures_immutable": true
+}
