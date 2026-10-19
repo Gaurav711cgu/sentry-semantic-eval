@@ -1,0 +1,153 @@
+{
+  "experiment_id": "scope-curriculum-causal-lm-v12-20261019",
+  "method": "CPU FP32 q/v rank4 LoRA with binary next-token prefix-only loss",
+  "model": {
+    "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+    "license": "Apache-2.0 as publisher declared",
+    "files": {
+      "config.json": {
+        "bytes": 861,
+        "sha256": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a",
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/config.json"
+      },
+      "tokenizer.json": {
+        "bytes": 2104556,
+        "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer.json"
+      },
+      "tokenizer_config.json": {
+        "bytes": 3764,
+        "sha256": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer_config.json"
+      },
+      "special_tokens_map.json": {
+        "bytes": 655,
+        "sha256": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52",
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/special_tokens_map.json"
+      },
+      "generation_config.json": {
+        "bytes": 132,
+        "sha256": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013",
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/generation_config.json"
+      },
+      "model.safetensors": {
+        "bytes": 269060552,
+        "sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/model.safetensors"
+      }
+    }
+  },
+  "runtime": {
+    "python": "3.11.15",
+    "torch": "2.8.0+cpu",
+    "transformers": "4.57.6",
+    "numpy": "1.26.4",
+    "safetensors": "0.7.0",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "0.36.0"
+  },
+  "optimizer_steps_max": 128,
+  "microbatch": 2,
+  "gradient_accumulation": 4,
+  "training_pair_presentations_max": 1024,
+  "training_forward_backward_computations_max": 512,
+  "scoring_computations_max": 431,
+  "scoring_budget_derivation": "200 new development plus three(final unique+4 saved parity); 50 prior base dev computations explicitly cached",
+  "learning_rate": 0.0005,
+  "adamw_weight_decay": 0.01,
+  "rank": 4,
+  "alpha": 8,
+  "dropout": 0.05,
+  "trainable_parameters": 230400,
+  "seed": 1019,
+  "checkpoints": [
+    32,
+    64,
+    128
+  ],
+  "thresholds": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "admission": {
+    "first_steps": 16,
+    "max_seconds": 600
+  },
+  "max_training_wall_seconds": 2400,
+  "max_parent_train_seconds": 2500,
+  "max_score_process_seconds": 1100,
+  "max_rss_bytes": 8589934592,
+  "max_prefix_tokens": 384,
+  "max_uncached_draft_forward_seconds": 10,
+  "max_retained_adapter_bytes": 1100000,
+  "old_v8_v9_budgets_reused": false,
+  "independent_final_qualified": false,
+  "references": "AI-authored synthetic, exposed source; no independent human/customer validation",
+  "dataset": {
+    "AI_authored": true,
+    "independent_final_qualified": false,
+    "training_pairs": 1870,
+    "positive_pairs": 418,
+    "training_sha256": "364bdba35fed44699b7b1dc7e12d67a590aa8efe775360ebf701947bb7f213bf",
+    "development": "Exposed v10/v11 development, intentionally used for error analysis",
+    "curriculum": "Permission and denied permission; direct and indirect negation; negation of unrelated context; active/passive action wording",
+    "dev_cases_sha256": "1f613039b116a20f41c83524309a513598fe74c724caa3b200e8de149939ea51",
+    "final_cases_sha256": "c50e2c74b0e0a5e65b59637ea44e073a0d691d41bde9c41aaeb86502db38d7ac",
+    "final_source": "Same v11 prospective final; no prior final model inference occurred",
+    "final_views": 216,
+    "final_scenarios": 36
+  },
+  "requirements": {
+    "raw_exact_accuracy_min": 0.9,
+    "eligible_effect_recall_min": 0.9,
+    "all_permutation_groups_consistent": true,
+    "permutation_evidence": "structural canonicalization, not learned robustness",
+    "zero_unsupported_controller_effects": true,
+    "combined_accuracy_at_least_rules": true,
+    "eligible_effect_recall_above_rules_min": 0.05,
+    "cleanup_and_saved_serving_parity_required": true
+  },
+  "source_sha256": {
+    "pair_v10.py": "1df8eae8095874e278d5ed0d74d43c0684b494e0be0e09195cfd5aa44215a13a",
+    "lora_v10.py": "fcd99c1d6f47e20cb6e3e3b304761a0660f241924ab96a2ec03c7d9c2469a01e",
+    "worker_v10.py": "df795a6383abee91147f4daa0b2a594ba0f10b075753ea5759ea72a2b97e8de7",
+    "data_v10.py": "7b47b72c50f1b49dc8ba027098b99aaa3e2aa4bbf7f258dc26b14708a6c99294",
+    "evaluate_v10.py": "5bf1387dcb61b2d228ef9122aa58fd0aa18b81150996763ed1e243985494fbbb",
+    "run_v10.py": "6de6ace003e0cc8dd398c0b0ac3fcb12e0d5e90e6ce85e68b88c1a392ed73a31",
+    "worker_v11.py": "405c6c826cc7c87b3edce6486dfe24c7a5dad1618985ce2b4f8a40276c7ff5fb",
+    "data_v11.py": "2c922a38737be95ba6f12e800654790c72c1ff328f227f232da58a3c7f2c7903",
+    "test_data_v11.py": "a3cf6d9a6e6fa4253b5e77e1e918050b38b3330fcfbe7c87333f79327c8974b7",
+    "test_training_v11.py": "bc71c5c3161a307e7cf3c931e962122106409cd34bc4e10afec4c7e0e6d2c11f",
+    "test_model_stack_v10.py": "c5ea2f16cddb44e9ab73337020130f443a6f8e59f45bc1e404917d04f406f1ef",
+    "test_pair_v10.py": "dd0ea500a348e49e0b54148a8abad48d168f7f40f621aad8d88a2be5051e6a2d",
+    "test_lora_v10.py": "41bd39dc728f99c25ed8d4c70284b342d61ebe2ba0831ba61b415643b5e5dbc6",
+    "test_worker_v10.py": "507e7d07299a0921537b02375239ad7899f01ac3b301e07a7ba6307239b29f37",
+    "test_evaluate_v10.py": "2c91903f60473f477463ae10fc94c952e4d5c789eb49a5b893697ebf186981b5",
+    "test_run_v10.py": "297add61212612fc63eb5ff8b2801a8bab2627b45307afbb8a062e0dda285650",
+    "test_data_v10.py": "1da6dd6e547c29103cdc2387f2b914398576645f26b3d0df89671fc321830d1b",
+    "result-v10.json": "d96ed70531e38d5ac2465fd53e1af2fa6c12563330f2f0751c3e1dc5bb00bc2c",
+    "run_v11.py": "d5dd8f1a6baf44411a45133531cc7f0fe6a7ee9917beb625609553a8ad9aa66d",
+    "run_v12.py": "6198f2f23bda211ad612eb720f627f882698ea865c53f0a356c3e785482bac4b",
+    "data_v12.py": "4604c77965db67b06737941f5e477d9ec0d11522940b6287f3ae3e1d3ffa50aa",
+    "test_data_v12.py": "deb5534b65a4b318f31f1bc3a690467509dff7c1d78a1afd0e4c252a63b67515",
+    "TRAINING_V12.md": "484915c721d0e0793d8ae6cd757257bef8210d99b5b69a8175835f018170ece8",
+    ".github/workflows/train-v12.yml": "f6ae426843e3d39a1d973475869e7e9a41a33c9f935da4db1e01998351ace578",
+    "step128-v11.safetensors": "50d78add148143338f930e62aac367c10937d2dc8296e33a9003fee40d46d4a8",
+    "result-v11.json": "8a23250fcc8a5c5e323dee9af87f73758fed2112f5363cab017c012f93804caa"
+  },
+  "initial_adapter_sha256": "50d78add148143338f930e62aac367c10937d2dc8296e33a9003fee40d46d4a8",
+  "initial_adapter_selection": "Best v11 trained checkpoint by exposed development only; final never scored",
+  "base_development_cache_sha256": "d96ed70531e38d5ac2465fd53e1af2fa6c12563330f2f0751c3e1dc5bb00bc2c",
+  "old_v10_budgets_reused": false,
+  "development_admission": {
+    "raw_accuracy_min": 0.9,
+    "eligible_recall_min": 0.9,
+    "all_structural_groups_consistent": true
+  },
+  "old_v11_budgets_reused": false,
+  "initial_adaptation_report_sha256": "8a23250fcc8a5c5e323dee9af87f73758fed2112f5363cab017c012f93804caa"
+}

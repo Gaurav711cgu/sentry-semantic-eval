@@ -1,0 +1,15 @@
+{
+  "execution_status": "complete",
+  "semantic_status": "failed_development",
+  "new_optimizer_steps": 128,
+  "new_scoring_computations_completed": 200,
+  "cached_base_development_computations": 50,
+  "final_scoring_computations": 0,
+  "best_development_raw_correct": 126,
+  "development_views": 144,
+  "eligible_hits": 18,
+  "eligible_views": 24,
+  "retained_adapter_sha256": "50d78add148143338f930e62aac367c10937d2dc8296e33a9003fee40d46d4a8",
+  "report_sha256": "8a23250fcc8a5c5e323dee9af87f73758fed2112f5363cab017c012f93804caa",
+  "independent_final_qualified": false
+}
