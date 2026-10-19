@@ -1,0 +1,11 @@
+{
+  "experiment_id": "single-candidate-synthetic-repair-v9-20261019",
+  "source_head": "6b327d87c7488e48932dbdd5e537cadd9825e92a",
+  "protocol_sha256": "d419ac717db9f8089927e250fed702ace7a5316518928b14566cd997963690f3",
+  "calls": 156,
+  "campaign_id": "repair-v9-20261019",
+  "stage": "repair-c",
+  "run_id": 39248573280,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
