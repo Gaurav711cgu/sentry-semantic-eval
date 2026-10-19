@@ -1,4 +1,66 @@
-# Sentry semantic development comparison
+# AgentSentry learned intent model and evaluation lab
+
+This student project studies whether a small supervised language model can
+identify current cancellation authorization while a separate backend governs
+action execution. It is not a customer deployment or independent validation.
+The public repository contains original code, AI-authored synthetic scenarios,
+protocols, retained adapters and scored outputs; no private backend code,
+credentials or customer data are published. All evaluation sources are exposed.
+
+## Current measured state
+
+The learned component freezes SmolLM2-135M-Instruct and trains 230,400 rank-four
+q/v LoRA parameters using binary next-token classification. It scores every
+listed or mentioned order without eligibility filtering, then escalates unless
+exactly one candidate passes the development-selected threshold. A separate
+private controller validates proposed effects. No rules fallback repairs targets.
+
+| Experiment | Exposed development raw exact | Eligible-target recall | Final status |
+| --- | --- | --- | --- |
+| V10 trained adapters | 96/144 (66.7%) | 12/24 (50%) | Unadapted base was selected; trained adapter not promoted |
+| V11 corrective curriculum | 126/144 (87.5%) | 18/24 (75%) | Admission failed; no final inference |
+| V12 context curriculum | 126/144 (87.5%) | 24/24 (100%) | Admission failed; no final inference |
+
+These are 24 scenarios, each under six correlated snapshot permutations.
+Permutation invariance is structural normalization, not learned robustness.
+V12 still misses two absent-order requests and wrongly accepts one conditional
+request. Higher eligible recall does not establish better overall accuracy.
+No trained adapter currently has measured-demo qualification. V13 is a separately
+budgeted active experiment; its outcome is not yet known.
+
+Protocols and results: [V10](RESULTS_V10.md), [V11](RESULTS_V11.md),
+[V12](RESULTS_V12.md), [V13 frozen plan](TRAINING_V13.md).
+The model architecture, normalization, train/serve scoring primitives and failed
+history remain visible. The original Qwen prompt experiments below use different
+banks; their percentages are not directly comparable to this development table.
+
+## Recompute the latest completed raw result without a model
+
+Use Python standard library only, from this repository. No download, API key,
+model inference, Docker or paid compute is needed:
+
+```sh
+python3 - <<'PYCODE'
+import json
+from data_v12 import build_split
+from evaluate_v10 import score_cases
+report = json.load(open("result-v12.json"))
+checkpoint = report["training"]["checkpoints"]["step128"]
+metrics = score_cases(build_split("dev"), checkpoint["records"], 0.5)
+print({key: metrics[key] for key in
+       ["raw_exact_correct", "cases", "eligible_raw_target_hits", "eligible_targets"]})
+assert metrics["raw_exact_correct"] == 126
+assert metrics["eligible_raw_target_hits"] == 24
+PYCODE
+```
+
+This recomputes raw predictions from retained scores. It does not re-execute the
+model or impersonate private-controller/runtime proof. A new training run needs
+its exact prospectively consumed grant; rerunning a consumed attempt is rejected.
+All heavy pretrained-model work runs on standard public Linux CPU runners.
+
+## Historical prompt-only experiments
+
 
 This standalone lab publishes only original evaluation harness code and synthetic, already exposed development inputs. It contains no private backend implementation, credentials, production data or final holdout. The model is an attributed dependency, not our implementation. The first experiment isolates model identity: Qwen2.5-1.5B-Instruct replaces the earlier0.5B model with the same public54 cases, option ordering, prompts, letter scoring and raw/content-free calculation. Passing this diagnostic is not independent AI qualification.
 
