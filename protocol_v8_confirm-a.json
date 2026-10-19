@@ -10719,6 +10719,18 @@
     ".github/workflows/campaign-v8.yml": "4c42f96475e67a26cd25518bae3e02268f753ecbe9c8a741f3338240f2b29eb3",
     "qwen3_LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
     "qwen3_tokenizer_config.json": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
-    "v7-metadata.json": "e2bc77bb224662f0b25d8368b6c3fb431920e9fdccb3f2bb2f2aabd1c8ef8194"
+    "v7-metadata.json": "e2bc77bb224662f0b25d8368b6c3fb431920e9fdccb3f2bb2f2aabd1c8ef8194",
+    "guards_v8.py": "87957712af7b0bb8c5575b03dec5d6c0fec47861777ca8f4f4b500ec09652367",
+    "test_guards_v8.py": "f651f46412417ab91dd21e1038fdab46107d25623c62b028d06ccea742e08ceb",
+    "run_campaign_v8_guarded.py": "7491bbd63e32c319f06fb8b4385762108ec4af7950c1e2c8bc26a9de77af9922",
+    ".github/workflows/campaign-v8-guarded.yml": "b3e675c507d9ece0a0e02b2f6f18b197f8b1af92285647324ab5c367c7109431"
+  },
+  "prerequisite_reports": {
+    "profile": {
+      "report_sha256": "05f3ca41b33124872d068268f4d6526062410466abb00cb966e8cd2c2d1b5e0a",
+      "protocol_sha256": "ccde2b4bacbc801419acf362a94e7b1ff66f1e98599ca24a0887bb783d24bcb3",
+      "grant_sha256": "2a8a12e7f4a797b938aad68c15a8a75eba0f71bf1fc10e3c6c35649d6cc45212",
+      "run_id": 39237198966
+    }
   }
 }
