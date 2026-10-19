@@ -1,0 +1,9 @@
+{
+  "experiment_id": "replay-balanced-causal-lm-v14-20261020",
+  "source_head": "24c484b6379da06e2656e135d546804ceb44e2af",
+  "protocol_sha256": "eee9eb073988fcb2f8893885c2d0dd474bab030612de7dc268919f86c8ca5d1c",
+  "optimizer_steps_max": 128,
+  "run_id": 39309330315,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
