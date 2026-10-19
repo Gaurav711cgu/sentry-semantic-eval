@@ -1,0 +1,22 @@
+{
+  "execution_status": "complete",
+  "semantic_status": "failed_development",
+  "new_optimizer_steps": 128,
+  "new_scoring_computations_completed": 200,
+  "cached_base_development_computations": 50,
+  "final_scoring_computations": 0,
+  "best_development_raw_correct": 126,
+  "development_views": 144,
+  "eligible_hits": 24,
+  "eligible_views": 24,
+  "development_threshold": 0.5,
+  "checkpoint": "step128",
+  "retained_adapter_sha256": "c356cde8d1841ea18f862792d906f9ac2b7b5be27eb7616d4e419cba16d95199",
+  "report_sha256": "3df66dcd48b0c8ad93241c5adca1cf1372e120f7007f5c457fe713e947bb7cad",
+  "training_seconds": 546.274115961,
+  "peak_rss_bytes": 1686253568,
+  "owned_worker_stopped": true,
+  "temporary_artifacts_removed": true,
+  "independent_final_qualified": false,
+  "measured_demo_qualified": false
+}
