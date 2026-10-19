@@ -1,0 +1,33 @@
+name: Four-request CPU GGUF admission profile
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  profile:
+    if: github.repository == 'Gaurav711cgu/sentry-semantic-eval'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      PIP_NO_CACHE_DIR: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11.15'
+      - name: Install pinned CPU runtime without weights
+        run: |
+          python -m venv /tmp/sentry-gguf-runtime
+          /tmp/sentry-gguf-runtime/bin/pip install --only-binary=:all: numpy==1.26.4 diskcache==5.6.3 typing_extensions==4.15.0 Jinja2==3.1.6 MarkupSafe==3.0.3
+          /tmp/sentry-gguf-runtime/bin/pip install --no-deps 'https://github.com/abetlen/llama-cpp-python/releases/download/v0.3.36/llama_cpp_python-0.3.36-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl#sha256=c8a3e98093e950d7a770f794842e36f2db82b2933e8762ed7b5ffd435011e8e4'
+          /tmp/sentry-gguf-runtime/bin/pip check
+      - name: Contracts before weight acquisition
+        run: /tmp/sentry-gguf-runtime/bin/python -m unittest -v test_contracts test_v6 test_v7
+      - name: Wait for consumed run-specific grant, then execute offline
+        env:
+          PROBE_PYTHON: /tmp/sentry-gguf-runtime/bin/python
+        run: |
+          chmod 700 "$GITHUB_WORKSPACE"
+          python run_probe_v7.py
