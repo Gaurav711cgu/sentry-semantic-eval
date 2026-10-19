@@ -1,0 +1,4879 @@
+{
+  "passed": false,
+  "independent_final_qualified": false,
+  "scope": "Prospectively fixed single-candidate synthetic repair benchmark; actual controller audit required; independent validation not claimed",
+  "execution_status": "completed",
+  "performance_status": "passed",
+  "semantic_status": "failed",
+  "evidence_status": "verified",
+  "independent_validation_status": "not_claimed",
+  "stage": "repair-c",
+  "calls_consumed": 156,
+  "completed_calls": 156,
+  "model_acquisition_started": true,
+  "events": [
+    {
+      "event": "loaded",
+      "dtype": "gguf_q4_k_m",
+      "uid": 65534,
+      "network_denied": true,
+      "private_canary_denied": true,
+      "load_seconds": 1.310808196999993,
+      "peak_rss_bytes": 4529991680,
+      "llama_cpp": "0.3.36",
+      "numpy": "1.26.4",
+      "python": "3.11.15",
+      "threads": 4,
+      "cpu_count": 4,
+      "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves user_shstk avx_vnni avx512_bf16 vnmi avx512vbmi umip waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid cldemote movdiri movdir64b fsrm serialize tsxldtrk ibt amx_bf16 avx512_fp16 amx_tile amx_int8 arch_capabilities"
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        27.108150482177734,
+        54.045448303222656,
+        26.801334381103516,
+        24.040563583374023
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.031205474000004,
+      "peak_rss_bytes": 4592173056
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-0",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-0",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        54.073699951171875,
+        36.77590560913086,
+        28.70722198486328,
+        28.460384368896484
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 218,
+      "duration_seconds": 8.657154139,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        26.709604263305664,
+        53.924400329589844,
+        26.69875717163086,
+        23.646041870117188
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.006542038000006,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-1",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-1",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        53.40581512451172,
+        35.68086624145508,
+        28.107919692993164,
+        28.85640525817871
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 218,
+      "duration_seconds": 8.657650704999995,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        24.868934631347656,
+        26.385040283203125,
+        53.98628616333008,
+        25.19634246826172
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.017982723000003,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-2",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-2",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        54.378639221191406,
+        36.72241973876953,
+        28.841716766357422,
+        28.70954132080078
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 218,
+      "duration_seconds": 8.661508394999998,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        26.705520629882812,
+        27.47536277770996,
+        27.01913833618164,
+        55.60915756225586
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.061596516999998,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-3",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-3",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        53.76395797729492,
+        35.92037582397461,
+        28.803802490234375,
+        28.53750991821289
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 218,
+      "duration_seconds": 8.70831032400001,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        24.771312713623047,
+        26.20677375793457,
+        53.943115234375,
+        25.490345001220703
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.273982529000023,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-4",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-4",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        52.731590270996094,
+        36.271942138671875,
+        28.70908546447754,
+        30.112085342407227
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 218,
+      "duration_seconds": 8.779665117999997,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        26.356489181518555,
+        27.145830154418945,
+        26.71126937866211,
+        55.13980484008789
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.061054280999997,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-01-5",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-01-5",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        53.1702766418457,
+        36.331825256347656,
+        29.012821197509766,
+        29.29131317138672
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 218,
+      "duration_seconds": 8.697560386999982,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-02-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-02-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        27.105464935302734,
+        27.54137420654297,
+        27.48651123046875,
+        55.128501892089844
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.202111846999998,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-02-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-02-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        24.74116325378418,
+        26.71731948852539,
+        54.28744888305664,
+        25.84736442565918
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.233227703000011,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-02-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-02-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        26.99951171875,
+        27.62242889404297,
+        27.68802261352539,
+        55.60832595825195
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.14709424099999,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-02-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-02-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        25.081222534179688,
+        27.374576568603516,
+        54.65382766723633,
+        26.21771240234375
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.122541212000016,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-02-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-02-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        27.31216049194336,
+        54.44289016723633,
+        26.774822235107422,
+        23.967742919921875
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.16531893200002,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-02-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-02-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        27.417627334594727,
+        53.83458709716797,
+        26.871829986572266,
+        23.928264617919922
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.216988192000002,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-03-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-03-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        26.631694793701172,
+        52.50143051147461,
+        26.735143661499023,
+        23.510881423950195
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.991932550000001,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-03-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-03-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        25.417423248291016,
+        51.89291763305664,
+        25.625802993774414,
+        23.613224029541016
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.974378225999999,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-03-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-03-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        25.852642059326172,
+        27.902114868164062,
+        54.2714729309082,
+        26.025775909423828
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.034014736999978,
+      "peak_rss_bytes": 4593352704
+    },
+    {
+      "event": "started",
+      "id": "confirm-03-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-03-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        25.684988021850586,
+        27.809595108032227,
+        26.37612533569336,
+        54.016502380371094
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.97670248099999,
+      "peak_rss_bytes": 4593483776
+    },
+    {
+      "event": "started",
+      "id": "confirm-03-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-03-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        25.687423706054688,
+        27.886796951293945,
+        52.486297607421875,
+        26.994144439697266
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.975364652999986,
+      "peak_rss_bytes": 4593483776
+    },
+    {
+      "event": "started",
+      "id": "confirm-03-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-03-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        27.708574295043945,
+        29.30294418334961,
+        26.019287109375,
+        51.392539978027344
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.068480651000016,
+      "peak_rss_bytes": 4593483776
+    },
+    {
+      "event": "started",
+      "id": "confirm-04-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-04-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        37.519447326660156,
+        28.120506286621094,
+        25.302242279052734,
+        51.214515686035156
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 224,
+      "duration_seconds": 8.812770268999998,
+      "peak_rss_bytes": 4593483776
+    },
+    {
+      "event": "started",
+      "id": "confirm-04-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-04-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        45.07263946533203,
+        29.229434967041016,
+        49.619842529296875,
+        27.474384307861328
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 224,
+      "duration_seconds": 8.908796529999961,
+      "peak_rss_bytes": 4593483776
+    },
+    {
+      "event": "started",
+      "id": "confirm-04-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-04-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        48.452064514160156,
+        28.76305389404297,
+        25.694419860839844,
+        41.59709167480469
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 224,
+      "duration_seconds": 8.810317338000004,
+      "peak_rss_bytes": 4593483776
+    },
+    {
+      "event": "started",
+      "id": "confirm-04-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-04-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        35.46767807006836,
+        28.534786224365234,
+        51.31507110595703,
+        26.840824127197266
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 224,
+      "duration_seconds": 8.889418424999974,
+      "peak_rss_bytes": 4593483776
+    },
+    {
+      "event": "started",
+      "id": "confirm-04-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-04-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        35.513763427734375,
+        50.16498565673828,
+        25.568458557128906,
+        23.309486389160156
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 224,
+      "duration_seconds": 9.057427454999981,
+      "peak_rss_bytes": 4593483776
+    },
+    {
+      "event": "started",
+      "id": "confirm-04-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-04-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        34.05476760864258,
+        50.69676208496094,
+        25.72008514404297,
+        24.053466796875
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 224,
+      "duration_seconds": 8.996326487999966,
+      "peak_rss_bytes": 4593483776
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green",
+        "order-missing"
+      ],
+      "logits": [
+        45.964271545410156,
+        30.349136352539062,
+        27.749534606933594,
+        26.597679138183594,
+        54.41004180908203
+      ],
+      "top_token_id": 36,
+      "top_token_text": "E",
+      "top_token_is_option": true,
+      "input_tokens": 236,
+      "duration_seconds": 9.570078577000004,
+      "peak_rss_bytes": 4593483776
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-0",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-0",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green",
+        "order-missing"
+      ],
+      "logits": [
+        53.90547180175781,
+        35.262306213378906,
+        29.779296875,
+        28.37220573425293,
+        35.69993591308594
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.092698283000004,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue",
+        "order-missing"
+      ],
+      "logits": [
+        43.96685791015625,
+        30.579404830932617,
+        28.2991943359375,
+        27.119033813476562,
+        55.92066192626953
+      ],
+      "top_token_id": 36,
+      "top_token_text": "E",
+      "top_token_is_option": true,
+      "input_tokens": 236,
+      "duration_seconds": 9.553300899000021,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-1",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-1",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue",
+        "order-missing"
+      ],
+      "logits": [
+        53.38163757324219,
+        34.752227783203125,
+        29.34370231628418,
+        28.50031280517578,
+        35.57099151611328
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.254477078999969,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green",
+        "order-missing"
+      ],
+      "logits": [
+        48.319400787353516,
+        29.48259735107422,
+        27.868976593017578,
+        26.484390258789062,
+        52.859092712402344
+      ],
+      "top_token_id": 36,
+      "top_token_text": "E",
+      "top_token_is_option": true,
+      "input_tokens": 236,
+      "duration_seconds": 9.697313323999992,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-2",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-2",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green",
+        "order-missing"
+      ],
+      "logits": [
+        53.23786163330078,
+        34.224544525146484,
+        29.342498779296875,
+        27.86750602722168,
+        34.689735412597656
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.242502886000011,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red",
+        "order-missing"
+      ],
+      "logits": [
+        46.605018615722656,
+        30.04012680053711,
+        27.705974578857422,
+        26.299510955810547,
+        54.2451286315918
+      ],
+      "top_token_id": 36,
+      "top_token_text": "E",
+      "top_token_is_option": true,
+      "input_tokens": 236,
+      "duration_seconds": 9.57263005599998,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-3",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-3",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red",
+        "order-missing"
+      ],
+      "logits": [
+        53.35504150390625,
+        33.77843475341797,
+        29.376237869262695,
+        27.49968147277832,
+        35.26532745361328
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.27451729500001,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue",
+        "order-missing"
+      ],
+      "logits": [
+        47.43058776855469,
+        29.620128631591797,
+        27.291126251220703,
+        26.231586456298828,
+        53.484493255615234
+      ],
+      "top_token_id": 36,
+      "top_token_text": "E",
+      "top_token_is_option": true,
+      "input_tokens": 236,
+      "duration_seconds": 9.666720571999974,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-4",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-4",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue",
+        "order-missing"
+      ],
+      "logits": [
+        52.089359283447266,
+        35.0624885559082,
+        29.72760009765625,
+        29.998991012573242,
+        34.323978424072266
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.251289396000004,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red",
+        "order-missing"
+      ],
+      "logits": [
+        46.62419128417969,
+        30.61935043334961,
+        28.05340576171875,
+        26.928380966186523,
+        54.96106719970703
+      ],
+      "top_token_id": 36,
+      "top_token_text": "E",
+      "top_token_is_option": true,
+      "input_tokens": 236,
+      "duration_seconds": 9.630475830000023,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-05-5",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-05-5",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red",
+        "order-missing"
+      ],
+      "logits": [
+        52.17091369628906,
+        35.048057556152344,
+        30.532451629638672,
+        29.291791915893555,
+        36.20988082885742
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.228947274000006,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-06-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-06-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green",
+        "order-missing"
+      ],
+      "logits": [
+        52.49209213256836,
+        32.56043243408203,
+        28.81986427307129,
+        27.234472274780273,
+        49.31584167480469
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 235,
+      "duration_seconds": 9.492955883999969,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-06-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-06-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue",
+        "order-missing"
+      ],
+      "logits": [
+        53.206661224365234,
+        32.48173141479492,
+        28.741382598876953,
+        27.46769905090332,
+        49.22206497192383
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 235,
+      "duration_seconds": 9.64619686399999,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-06-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-06-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green",
+        "order-missing"
+      ],
+      "logits": [
+        52.86314392089844,
+        32.40674591064453,
+        28.881959915161133,
+        27.360153198242188,
+        49.27979278564453
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 235,
+      "duration_seconds": 9.52582185,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-06-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-06-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red",
+        "order-missing"
+      ],
+      "logits": [
+        53.72821044921875,
+        33.01416778564453,
+        29.051197052001953,
+        27.381616592407227,
+        49.237754821777344
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 235,
+      "duration_seconds": 9.616780976999962,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-06-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-06-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue",
+        "order-missing"
+      ],
+      "logits": [
+        53.6577033996582,
+        32.18562316894531,
+        28.527767181396484,
+        27.29595375061035,
+        47.42387008666992
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 235,
+      "duration_seconds": 9.65726861600001,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-06-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-06-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red",
+        "order-missing"
+      ],
+      "logits": [
+        52.58041000366211,
+        32.00562286376953,
+        28.8157958984375,
+        26.98370361328125,
+        48.387542724609375
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 235,
+      "duration_seconds": 9.62756250000001,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-07-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-07-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        59.79438781738281,
+        27.477432250976562,
+        25.759124755859375,
+        24.31365394592285
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.470984857999952,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-07-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-07-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        59.990821838378906,
+        27.850675582885742,
+        26.122175216674805,
+        24.879375457763672
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.434342252999954,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-07-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-07-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        60.01076889038086,
+        27.772750854492188,
+        26.024757385253906,
+        24.523765563964844
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.368190730000038,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-07-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-07-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        60.05690383911133,
+        27.454181671142578,
+        26.00478172302246,
+        24.347118377685547
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.398719026000094,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-07-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-07-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        60.444541931152344,
+        27.98862648010254,
+        26.19126319885254,
+        24.727121353149414
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.373720756000012,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-07-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-07-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        59.66593551635742,
+        27.310813903808594,
+        25.972850799560547,
+        24.454532623291016
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.446250248999945,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-08-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-08-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        50.747310638427734,
+        32.08761215209961,
+        44.82609939575195,
+        28.34514617919922
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 230,
+      "duration_seconds": 9.358063387999891,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-08-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-08-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        52.115501403808594,
+        31.629161834716797,
+        40.97213363647461,
+        28.890209197998047
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 230,
+      "duration_seconds": 9.31319831999997,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-08-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-08-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        51.79525375366211,
+        32.25011444091797,
+        43.12202072143555,
+        28.600357055664062
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 230,
+      "duration_seconds": 9.357896307000033,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-08-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-08-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        50.70681381225586,
+        30.819854736328125,
+        44.25237274169922,
+        26.979259490966797
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 230,
+      "duration_seconds": 9.255366185999947,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-08-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-08-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        51.266082763671875,
+        32.09278869628906,
+        42.62336730957031,
+        28.810104370117188
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 230,
+      "duration_seconds": 9.325191560000007,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-08-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-08-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        49.73954391479492,
+        32.305885314941406,
+        46.719932556152344,
+        27.708894729614258
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 230,
+      "duration_seconds": 9.35086151300004,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-09-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-09-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        54.37361145019531,
+        35.5987663269043,
+        27.01675796508789,
+        25.201671600341797
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.185926732000098,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-09-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-09-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        55.02754211425781,
+        34.813926696777344,
+        26.897220611572266,
+        24.996295928955078
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.926999473000023,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-09-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-09-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        51.81078338623047,
+        32.58823013305664,
+        39.26538848876953,
+        27.183753967285156
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.86571066900001,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-09-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-09-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        53.85775375366211,
+        31.335323333740234,
+        27.091760635375977,
+        36.81636428833008
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.862939366999967,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-09-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-09-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        52.1627197265625,
+        32.564056396484375,
+        38.47936248779297,
+        27.09814453125
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.98248957599992,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-09-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-09-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        54.25252151489258,
+        31.13516616821289,
+        26.96019172668457,
+        35.475921630859375
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.885200783000073,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-10-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-10-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        50.218772888183594,
+        32.38383483886719,
+        27.407838821411133,
+        40.7653694152832
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 8.950067640999919,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-10-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-10-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        52.018890380859375,
+        35.08221435546875,
+        30.211429595947266,
+        27.47439193725586
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.048640709999972,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-10-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-10-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        50.37822341918945,
+        32.99104309082031,
+        27.703542709350586,
+        40.51781463623047
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.146442360000037,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-10-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-10-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        53.665748596191406,
+        34.80895233154297,
+        29.729400634765625,
+        27.261022567749023
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.124948388999996,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-10-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-10-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        53.10968780517578,
+        35.06727600097656,
+        28.071346282958984,
+        25.38220977783203
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.149392647000013,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-10-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-10-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        53.633209228515625,
+        35.36590576171875,
+        28.283615112304688,
+        25.613813400268555
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.18532526499996,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-11-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-11-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        54.985530853271484,
+        32.23884201049805,
+        25.340303421020508,
+        23.135574340820312
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.850595496999972,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-11-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-11-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        55.857421875,
+        32.85817337036133,
+        25.880260467529297,
+        23.59292984008789
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.995762510999953,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-11-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-11-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        52.99183654785156,
+        29.497303009033203,
+        40.717288970947266,
+        24.977832794189453
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.909878998999943,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-11-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-11-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        55.008338928222656,
+        29.14853286743164,
+        26.47559356689453,
+        37.89112091064453
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.112010082999973,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-11-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-11-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        54.066829681396484,
+        30.004413604736328,
+        38.67399978637695,
+        25.448728561401367
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.046982465000042,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-11-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-11-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        55.13592529296875,
+        27.854413986206055,
+        25.877281188964844,
+        36.449562072753906
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.97823211399998,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-12-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-12-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        54.363407135009766,
+        29.542299270629883,
+        27.229198455810547,
+        31.744903564453125
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.115406830999973,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-12-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-12-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        54.61381530761719,
+        30.59648895263672,
+        31.457706451416016,
+        28.23965072631836
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.131610142,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-12-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-12-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        55.52881622314453,
+        29.961280822753906,
+        27.255619049072266,
+        30.529727935791016
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.025255383999934,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-12-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-12-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        55.5612907409668,
+        29.76347541809082,
+        28.62433433532715,
+        25.518714904785156
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.952573290000032,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-12-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-12-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        54.42343521118164,
+        32.93983459472656,
+        26.148836135864258,
+        25.280864715576172
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.929131611999992,
+      "peak_rss_bytes": 4593508352
+    },
+    {
+      "event": "started",
+      "id": "confirm-12-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-12-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        55.534000396728516,
+        32.56863021850586,
+        26.779491424560547,
+        24.354719161987305
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.88308043500001,
+      "peak_rss_bytes": 4595605504
+    },
+    {
+      "event": "started",
+      "id": "confirm-13-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-13-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        50.51399230957031,
+        28.517330169677734,
+        50.47905731201172,
+        25.79545021057129
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.503771767999979,
+      "peak_rss_bytes": 4595605504
+    },
+    {
+      "event": "started",
+      "id": "confirm-13-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-13-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        49.933528900146484,
+        27.787616729736328,
+        26.760452270507812,
+        52.34058380126953
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.449497564000012,
+      "peak_rss_bytes": 4595605504
+    },
+    {
+      "event": "started",
+      "id": "confirm-13-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-13-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        53.19938659667969,
+        42.45159149169922,
+        25.72332763671875,
+        23.00783348083496
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.389980739000066,
+      "peak_rss_bytes": 4595605504
+    },
+    {
+      "event": "started",
+      "id": "confirm-13-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-13-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        53.699981689453125,
+        42.84087371826172,
+        26.072189331054688,
+        23.27678108215332
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.418686259999959,
+      "peak_rss_bytes": 4595605504
+    },
+    {
+      "event": "started",
+      "id": "confirm-13-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-13-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        49.974857330322266,
+        27.943965911865234,
+        27.068470001220703,
+        52.21629333496094
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.342195489999995,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-13-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-13-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        51.287925720214844,
+        28.485755920410156,
+        49.65138244628906,
+        26.515941619873047
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.426381323999976,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-14-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-14-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        56.666236877441406,
+        30.527385711669922,
+        27.243640899658203,
+        32.204429626464844
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 233,
+      "duration_seconds": 9.481987612000012,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-14-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-14-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        56.08343505859375,
+        31.245197296142578,
+        31.211917877197266,
+        26.68551254272461
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 233,
+      "duration_seconds": 9.454826192999917,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-14-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-14-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        56.90345764160156,
+        30.314891815185547,
+        27.067853927612305,
+        33.21662902832031
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 233,
+      "duration_seconds": 9.49630123999998,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-14-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-14-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        56.18745422363281,
+        31.8680477142334,
+        30.817779541015625,
+        26.415233612060547
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 233,
+      "duration_seconds": 9.554560932000072,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-14-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-14-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        57.160186767578125,
+        32.04469680786133,
+        26.358856201171875,
+        24.65044403076172
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 233,
+      "duration_seconds": 9.570023816999992,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-14-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-14-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        57.79408264160156,
+        33.69674301147461,
+        27.423561096191406,
+        25.728984832763672
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 233,
+      "duration_seconds": 9.555622906999929,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-15-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-15-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        40.862545013427734,
+        49.76799011230469,
+        27.245532989501953,
+        25.051761627197266
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 8.974528307000014,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-15-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-15-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        40.93446350097656,
+        50.07878112792969,
+        27.152549743652344,
+        24.962108612060547
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 8.883366090000095,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-15-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-15-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        29.50949478149414,
+        28.919668197631836,
+        54.12910461425781,
+        26.860862731933594
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 8.924803789000066,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-15-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-15-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        28.677841186523438,
+        27.284515380859375,
+        27.65115737915039,
+        54.89678192138672
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 9.005599656999948,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-15-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-15-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        29.53890609741211,
+        28.233749389648438,
+        53.55101013183594,
+        26.681743621826172
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 8.873159077999958,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-15-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-15-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        28.9952335357666,
+        27.782546997070312,
+        27.921886444091797,
+        55.12857437133789
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 8.869234058000075,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-16-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-16-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        25.60132598876953,
+        26.96196746826172,
+        27.154727935791016,
+        55.860328674316406
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 8.996584167000037,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-16-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-16-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        23.977733612060547,
+        26.10498046875,
+        54.86061477661133,
+        25.826980590820312
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 8.928631977000009,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-16-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-16-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        25.98269271850586,
+        27.079010009765625,
+        27.107257843017578,
+        56.02398681640625
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 9.008258432000048,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-16-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-16-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        24.085229873657227,
+        26.375173568725586,
+        54.90251159667969,
+        25.996768951416016
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 8.94426492599996,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-16-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-16-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        25.308837890625,
+        54.04608154296875,
+        26.68590545654297,
+        23.729475021362305
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 8.953411909000124,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-16-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-16-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        25.29886245727539,
+        53.92615509033203,
+        26.46705436706543,
+        23.81682014465332
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 8.929011988999946,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-17-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-17-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        59.61143493652344,
+        31.174034118652344,
+        27.044795989990234,
+        24.48497200012207
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.046186011000145,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-17-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-17-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        59.133644104003906,
+        31.459152221679688,
+        27.044513702392578,
+        24.546974182128906
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.097461629000009,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-17-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-17-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        58.290489196777344,
+        31.36333465576172,
+        30.171161651611328,
+        25.52859878540039
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.132210213000008,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-17-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-17-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        58.317649841308594,
+        30.39003562927246,
+        27.303768157958984,
+        30.127670288085938
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.11016146499992,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-17-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-17-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        58.44402313232422,
+        31.416099548339844,
+        29.916641235351562,
+        25.763341903686523
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 8.985276500000055,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-17-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-17-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        58.636131286621094,
+        30.460430145263672,
+        27.161453247070312,
+        29.931800842285156
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 225,
+      "duration_seconds": 9.093657358999963,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-18-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-18-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        41.91215133666992,
+        30.20944595336914,
+        28.584299087524414,
+        55.24584197998047
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 229,
+      "duration_seconds": 9.237191794000182,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-18-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-18-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        34.4307861328125,
+        30.119937896728516,
+        55.379722595214844,
+        27.660701751708984
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 229,
+      "duration_seconds": 9.316978375999952,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-18-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-18-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        39.99601364135742,
+        29.785308837890625,
+        28.436092376708984,
+        55.29378890991211
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 229,
+      "duration_seconds": 9.30435667100005,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-18-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-18-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        33.77403259277344,
+        30.10254669189453,
+        55.29035568237305,
+        27.398420333862305
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 229,
+      "duration_seconds": 9.391824139999926,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-18-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-18-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        49.18611145019531,
+        48.73212432861328,
+        27.314653396606445,
+        23.89345932006836
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 229,
+      "duration_seconds": 9.31950588199993,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-18-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-18-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        49.360633850097656,
+        47.52317810058594,
+        26.823402404785156,
+        23.37103271484375
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 229,
+      "duration_seconds": 9.364745303999825,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-19-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-19-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        48.540550231933594,
+        38.779151916503906,
+        25.167484283447266,
+        23.172889709472656
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 232,
+      "duration_seconds": 9.487605024000004,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-19-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-19-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        48.73629379272461,
+        38.53276443481445,
+        24.97408676147461,
+        23.362422943115234
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 232,
+      "duration_seconds": 9.434953111999903,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-19-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-19-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        47.088043212890625,
+        34.09989929199219,
+        36.6171989440918,
+        27.851146697998047
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 232,
+      "duration_seconds": 9.42814848199987,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-19-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-19-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        46.49346923828125,
+        31.563739776611328,
+        24.831653594970703,
+        40.85213851928711
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 232,
+      "duration_seconds": 9.53202285400016,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-19-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-19-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        46.92136001586914,
+        33.640106201171875,
+        37.68069076538086,
+        28.841829299926758
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 232,
+      "duration_seconds": 9.55628174100002,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-19-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-19-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        46.35338592529297,
+        30.098745346069336,
+        24.631988525390625,
+        41.61498260498047
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 232,
+      "duration_seconds": 9.444213283999943,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-20-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-20-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        51.91724395751953,
+        31.239986419677734,
+        26.388225555419922,
+        38.29925537109375
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.501510197000016,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-20-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-20-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        51.7564811706543,
+        33.94989776611328,
+        29.279605865478516,
+        27.948461532592773
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.500467326000035,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-20-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-20-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        51.16400909423828,
+        31.232662200927734,
+        26.381301879882812,
+        38.32701110839844
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.412684769999942,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-20-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-20-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        51.33909225463867,
+        34.98157501220703,
+        29.615875244140625,
+        27.978517532348633
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.489312644000165,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-20-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-20-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        51.84549331665039,
+        33.91016387939453,
+        26.99845314025879,
+        24.574665069580078
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.438262656999996,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-20-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-20-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        52.16741943359375,
+        34.826358795166016,
+        26.96794891357422,
+        24.40420913696289
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 231,
+      "duration_seconds": 9.43771432199992,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-21-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-21-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        52.40676498413086,
+        33.77458572387695,
+        27.472370147705078,
+        25.788543701171875
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 222,
+      "duration_seconds": 9.139629025000204,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-21-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-21-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        50.40000915527344,
+        31.056800842285156,
+        25.104534149169922,
+        42.22114562988281
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 222,
+      "duration_seconds": 9.02092252500006,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-21-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-21-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        50.51323699951172,
+        38.086875915527344,
+        27.54987907409668,
+        24.603923797607422
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 222,
+      "duration_seconds": 9.044991713000172,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-21-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-21-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        48.18400192260742,
+        39.12775802612305,
+        24.95145034790039,
+        33.261817932128906
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 222,
+      "duration_seconds": 9.151517387000013,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-21-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-21-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        48.81768798828125,
+        26.666505813598633,
+        39.389686584472656,
+        39.79966354370117
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 222,
+      "duration_seconds": 9.1207024549999,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-21-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-21-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        44.69837951660156,
+        26.306833267211914,
+        40.17350769042969,
+        44.1895751953125
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 222,
+      "duration_seconds": 9.097002269999848,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-22-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-22-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        55.40074157714844,
+        32.410179138183594,
+        26.32752799987793,
+        27.013120651245117
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 223,
+      "duration_seconds": 9.028976967000062,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-22-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-22-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        55.51898193359375,
+        31.142932891845703,
+        26.383996963500977,
+        25.702396392822266
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 223,
+      "duration_seconds": 9.104669288999958,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-22-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-22-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        55.014381408691406,
+        30.276037216186523,
+        27.565250396728516,
+        28.142581939697266
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 223,
+      "duration_seconds": 9.145474206000017,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-22-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-22-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        55.557960510253906,
+        30.707170486450195,
+        27.94774627685547,
+        26.166091918945312
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 223,
+      "duration_seconds": 9.121802134000063,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-22-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-22-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        55.248355865478516,
+        30.27063751220703,
+        25.468730926513672,
+        25.17572021484375
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 223,
+      "duration_seconds": 9.233312620000106,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-22-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-22-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        55.76579284667969,
+        32.96956253051758,
+        26.501110076904297,
+        26.81247329711914
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 223,
+      "duration_seconds": 9.163333328999897,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-23-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-23-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        51.82093048095703,
+        40.582275390625,
+        24.91179656982422,
+        23.459508895874023
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.176276050999832,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-23-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-23-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        51.95205307006836,
+        41.74309539794922,
+        25.859939575195312,
+        23.992673873901367
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.229058517999874,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-23-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-23-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        43.20226287841797,
+        28.996938705444336,
+        53.391693115234375,
+        26.007709503173828
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.24814557600007,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-23-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-23-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        42.35166931152344,
+        28.583011627197266,
+        27.0787353515625,
+        53.65367889404297
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.272324801999957,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-23-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-23-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        45.15338897705078,
+        29.327354431152344,
+        52.91163635253906,
+        26.39046287536621
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.195954963999839,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-23-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-23-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        44.591102600097656,
+        28.328699111938477,
+        26.784229278564453,
+        53.139495849609375
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 226,
+      "duration_seconds": 9.261175176999814,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-24-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-24-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        27.26971435546875,
+        27.969589233398438,
+        27.059295654296875,
+        54.56640625
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.21831661400006,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-24-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-24-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        25.701738357543945,
+        27.733661651611328,
+        54.07160186767578,
+        25.391521453857422
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.350279665000016,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-24-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-24-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        28.63037109375,
+        28.70719337463379,
+        27.788429260253906,
+        54.75818634033203
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.167654339000137,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-24-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-24-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        26.686906814575195,
+        28.61148452758789,
+        54.71184539794922,
+        25.826385498046875
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.259565072999976,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-24-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-24-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        30.668384552001953,
+        53.148658752441406,
+        26.820289611816406,
+        24.365949630737305
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.289743557000065,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "started",
+      "id": "confirm-24-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "confirm-24-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        31.240673065185547,
+        52.476707458496094,
+        26.440654754638672,
+        23.89732551574707
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 227,
+      "duration_seconds": 9.090453829000126,
+      "peak_rss_bytes": 4596391936
+    },
+    {
+      "event": "finished",
+      "completed_calls": 156
+    }
+  ],
+  "grant": {
+    "experiment_id": "single-candidate-synthetic-repair-v9-20261019",
+    "source_head": "6b327d87c7488e48932dbdd5e537cadd9825e92a",
+    "protocol_sha256": "d419ac717db9f8089927e250fed702ace7a5316518928b14566cd997963690f3",
+    "calls": 156,
+    "campaign_id": "repair-v9-20261019",
+    "stage": "repair-c",
+    "run_id": 39248573280,
+    "attempt": 1,
+    "status": "consumed_before_execution"
+  },
+  "source_sha256": {
+    ".github/workflows/campaign-v8-guarded.yml": "b3e675c507d9ece0a0e02b2f6f18b197f8b1af92285647324ab5c367c7109431",
+    ".github/workflows/campaign-v8.yml": "4c42f96475e67a26cd25518bae3e02268f753ecbe9c8a741f3338240f2b29eb3",
+    ".github/workflows/repair-v9.yml": "63990afaaf11e4332e1bf941d3aef2e7a8349a068381a5e094edc2d0d22b601c",
+    "REPAIR_V9.md": "c0f16bdc1b3a739d74bf0a9db6769ce31dc4b8a5b456f97bb0af8243a5124c3f",
+    "campaign-v8-ledger.json": "0203f5b28ce8044f21fd891dbb12707ef239fef6f3610dead8ff9515fa604ea1",
+    "campaign_v8.json": "d0622b06a153c3fa91bbae717b598a578fb65553413c224c668c2a9d9126e91d",
+    "campaign_v8.py": "2432bccba99eca61c42c7dd5d8b777f8f67c56e2591b0ebcc45f5579035420e2",
+    "confirmatory_v8.json": "f9dc432db562fe73f083e46ebd9da2daddc6d7484a0f3e1fb5c8f82f9ffb7324",
+    "contracts.py": "4bfe855af2b26947e6d0554529e663d94f2678728537181c6fd646e347c76655",
+    "contracts_v6.py": "14f9a9f8a52da3849bf8a7eeec8f55c7c28e3d766aa59fc4e20343dd395fce11",
+    "contracts_v7.py": "1d12efd4d26573dd68c27fce451b817eb7541cdcb813121b3e4b2ba46b7c6c2f",
+    "gold.json": "80dbc5df90d290036f0164d356255dd715f70f04b110cb5ea83ca145777d70cb",
+    "gold_confirm_v8.json": "34fbb0eafe83ffb7fd5a6aa87fe3d4523bc6f2a6b7d75e1e11394c79cd8d35e7",
+    "guards_v8.py": "87957712af7b0bb8c5575b03dec5d6c0fec47861777ca8f4f4b500ec09652367",
+    "prompts_v7.py": "baee37881cb4180930b700c93c16aec56a1e9abaab9ad36edec4cbfe591dd2f1",
+    "protocol.json": "401de20261a8ce4da54430449a81e5a22457f8bb292584ecf30e872166ff48fe",
+    "protocol_v6.json": "8992a361c95fa0733572ac8230d97d8137678566fd1baf6ba6d6f7876973fe01",
+    "protocol_v7.json": "2ad7287b26c3ee43822558ded93208f06ca1572fe7561d983ecdbe4a59e83edc",
+    "protocol_v8_confirm-a.json": "83608fb11af4abdaec146e5da00c31b8eb1084514eebc02f0460c8ce111e3221",
+    "qwen3_LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+    "qwen3_tokenizer_config.json": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+    "repair_v9.py": "d8b2ff9340441efe5be1be61c28f49dc098fab09e37f59e82f610db1fa899687",
+    "run_campaign_v8.py": "b65919f6e408cd73090d9862efab82bb52d0d186caefeccee0accba94cd93507",
+    "run_campaign_v8_guarded.py": "7491bbd63e32c319f06fb8b4385762108ec4af7950c1e2c8bc26a9de77af9922",
+    "run_repair_v9.py": "e0d3bd7d9d4efab3d9eda8846d772feef46016efe11dd0efad121233a5c75a86",
+    "test_campaign_v8.py": "848389ae07f377813e1aa4ed0d6d142abb093cb159fa3f0081ae707c769367bc",
+    "test_contracts.py": "c4d324f6ebf50d2ebae871d8cdae9eb6bbabedcfc16305f739a51911a96f836d",
+    "test_guards_v8.py": "f651f46412417ab91dd21e1038fdab46107d25623c62b028d06ccea742e08ceb",
+    "test_repair_v9.py": "afbe81ac8d590474410ee286aae426a392decb0f59b8b172009e10f9ef3ee344",
+    "test_v6.py": "26436748e4a1b0bb208ff37579ba61eb57361ff441dc919fe56bf6526f91a939",
+    "test_v7.py": "8c3a46af86fdd60b9fa2edb69e2faf2ccdfe8f935f27b383942bd3368bc5dd6c",
+    "v7-metadata.json": "e2bc77bb224662f0b25d8368b6c3fb431920e9fdccb3f2bb2f2aabd1c8ef8194",
+    "worker_v7.py": "dc2d3145f1d9c73aba668e7e7ded64e88fd85be19b52f622101774f9b9ad9821"
+  },
+  "model": {
+    "model": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+    "revision": "a06e946bb6b655725eafa393f4a9745d460374c9",
+    "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "license": "Apache-2.0 as publisher declared",
+    "weights_file": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "files": {
+      "qwen3_LICENSE": {
+        "bytes": 11343,
+        "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+        "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/LICENSE"
+      },
+      "qwen3_tokenizer_config.json": {
+        "bytes": 9377,
+        "sha256": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+        "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/tokenizer_config.json"
+      },
+      "Qwen3-4B-Instruct-2507-Q4_K_M.gguf": {
+        "bytes": 2497281120,
+        "sha256": "3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597",
+        "url": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/a06e946bb6b655725eafa393f4a9745d460374c9/Qwen3-4B-Instruct-2507-Q4_K_M.gguf"
+      }
+    }
+  },
+  "protocol_sha256": "d419ac717db9f8089927e250fed702ace7a5316518928b14566cd997963690f3",
+  "campaign_calls_reserved": 296,
+  "v8_promotion_eligible": false,
+  "max_forward_seconds": 9.697313323999992,
+  "max_rss_bytes": 4596391936,
+  "semantic_quality_qualified": false,
+  "logical_request_count": 288,
+  "physical_scoring_calls": 156,
+  "calibration_aliases": 132,
+  "predictions": {
+    "raw": {
+      "confirm-01-0": "order-red",
+      "confirm-01-1": "order-red",
+      "confirm-01-2": "order-red",
+      "confirm-01-3": "order-red",
+      "confirm-01-4": "order-red",
+      "confirm-01-5": "order-red",
+      "confirm-02-0": "order-green",
+      "confirm-02-1": "order-green",
+      "confirm-02-2": "order-green",
+      "confirm-02-3": "order-green",
+      "confirm-02-4": "order-green",
+      "confirm-02-5": "order-green",
+      "confirm-03-0": "order-red",
+      "confirm-03-1": "order-red",
+      "confirm-03-2": "order-red",
+      "confirm-03-3": "order-red",
+      "confirm-03-4": "order-red",
+      "confirm-03-5": "order-red",
+      "confirm-04-0": "order-green",
+      "confirm-04-1": "order-green",
+      "confirm-04-2": null,
+      "confirm-04-3": "order-green",
+      "confirm-04-4": "order-green",
+      "confirm-04-5": "order-green",
+      "confirm-05-0": "order-missing",
+      "confirm-05-1": "order-missing",
+      "confirm-05-2": "order-missing",
+      "confirm-05-3": "order-missing",
+      "confirm-05-4": "order-missing",
+      "confirm-05-5": "order-missing",
+      "confirm-06-0": null,
+      "confirm-06-1": null,
+      "confirm-06-2": null,
+      "confirm-06-3": null,
+      "confirm-06-4": null,
+      "confirm-06-5": null,
+      "confirm-07-0": null,
+      "confirm-07-1": null,
+      "confirm-07-2": null,
+      "confirm-07-3": null,
+      "confirm-07-4": null,
+      "confirm-07-5": null,
+      "confirm-08-0": null,
+      "confirm-08-1": null,
+      "confirm-08-2": null,
+      "confirm-08-3": null,
+      "confirm-08-4": null,
+      "confirm-08-5": null,
+      "confirm-09-0": null,
+      "confirm-09-1": null,
+      "confirm-09-2": null,
+      "confirm-09-3": null,
+      "confirm-09-4": null,
+      "confirm-09-5": null,
+      "confirm-10-0": null,
+      "confirm-10-1": null,
+      "confirm-10-2": null,
+      "confirm-10-3": null,
+      "confirm-10-4": null,
+      "confirm-10-5": null,
+      "confirm-11-0": null,
+      "confirm-11-1": null,
+      "confirm-11-2": null,
+      "confirm-11-3": null,
+      "confirm-11-4": null,
+      "confirm-11-5": null,
+      "confirm-12-0": null,
+      "confirm-12-1": null,
+      "confirm-12-2": null,
+      "confirm-12-3": null,
+      "confirm-12-4": null,
+      "confirm-12-5": null,
+      "confirm-13-0": null,
+      "confirm-13-1": "order-blue",
+      "confirm-13-2": null,
+      "confirm-13-3": null,
+      "confirm-13-4": "order-blue",
+      "confirm-13-5": null,
+      "confirm-14-0": null,
+      "confirm-14-1": null,
+      "confirm-14-2": null,
+      "confirm-14-3": null,
+      "confirm-14-4": null,
+      "confirm-14-5": null,
+      "confirm-15-0": "order-red",
+      "confirm-15-1": "order-red",
+      "confirm-15-2": "order-red",
+      "confirm-15-3": "order-red",
+      "confirm-15-4": "order-red",
+      "confirm-15-5": "order-red",
+      "confirm-16-0": "order-green",
+      "confirm-16-1": "order-green",
+      "confirm-16-2": "order-green",
+      "confirm-16-3": "order-green",
+      "confirm-16-4": "order-green",
+      "confirm-16-5": "order-green",
+      "confirm-17-0": null,
+      "confirm-17-1": null,
+      "confirm-17-2": null,
+      "confirm-17-3": null,
+      "confirm-17-4": null,
+      "confirm-17-5": null,
+      "confirm-18-0": "order-green",
+      "confirm-18-1": "order-green",
+      "confirm-18-2": "order-green",
+      "confirm-18-3": "order-green",
+      "confirm-18-4": null,
+      "confirm-18-5": null,
+      "confirm-19-0": null,
+      "confirm-19-1": null,
+      "confirm-19-2": null,
+      "confirm-19-3": null,
+      "confirm-19-4": null,
+      "confirm-19-5": null,
+      "confirm-20-0": null,
+      "confirm-20-1": null,
+      "confirm-20-2": null,
+      "confirm-20-3": null,
+      "confirm-20-4": null,
+      "confirm-20-5": null,
+      "confirm-21-0": null,
+      "confirm-21-1": null,
+      "confirm-21-2": null,
+      "confirm-21-3": null,
+      "confirm-21-4": null,
+      "confirm-21-5": null,
+      "confirm-22-0": null,
+      "confirm-22-1": null,
+      "confirm-22-2": null,
+      "confirm-22-3": null,
+      "confirm-22-4": null,
+      "confirm-22-5": null,
+      "confirm-23-0": null,
+      "confirm-23-1": null,
+      "confirm-23-2": "order-red",
+      "confirm-23-3": "order-red",
+      "confirm-23-4": "order-red",
+      "confirm-23-5": "order-red",
+      "confirm-24-0": "order-green",
+      "confirm-24-1": "order-green",
+      "confirm-24-2": "order-green",
+      "confirm-24-3": "order-green",
+      "confirm-24-4": "order-green",
+      "confirm-24-5": "order-green"
+    },
+    "calibrated_diagnostic": {
+      "confirm-01-0": "order-red",
+      "confirm-01-1": "order-red",
+      "confirm-01-2": "order-red",
+      "confirm-01-3": "order-red",
+      "confirm-01-4": "order-red",
+      "confirm-01-5": "order-red",
+      "confirm-02-0": "order-green",
+      "confirm-02-1": "order-green",
+      "confirm-02-2": "order-green",
+      "confirm-02-3": "order-green",
+      "confirm-02-4": "order-green",
+      "confirm-02-5": "order-green",
+      "confirm-03-0": "order-red",
+      "confirm-03-1": "order-red",
+      "confirm-03-2": "order-red",
+      "confirm-03-3": "order-red",
+      "confirm-03-4": "order-red",
+      "confirm-03-5": "order-red",
+      "confirm-04-0": "order-green",
+      "confirm-04-1": "order-green",
+      "confirm-04-2": "order-green",
+      "confirm-04-3": "order-green",
+      "confirm-04-4": "order-green",
+      "confirm-04-5": "order-green",
+      "confirm-05-0": "order-missing",
+      "confirm-05-1": "order-missing",
+      "confirm-05-2": "order-missing",
+      "confirm-05-3": "order-missing",
+      "confirm-05-4": "order-missing",
+      "confirm-05-5": "order-missing",
+      "confirm-06-0": "order-missing",
+      "confirm-06-1": "order-missing",
+      "confirm-06-2": "order-missing",
+      "confirm-06-3": "order-missing",
+      "confirm-06-4": "order-missing",
+      "confirm-06-5": "order-missing",
+      "confirm-07-0": null,
+      "confirm-07-1": null,
+      "confirm-07-2": null,
+      "confirm-07-3": null,
+      "confirm-07-4": null,
+      "confirm-07-5": null,
+      "confirm-08-0": "order-blue",
+      "confirm-08-1": "order-green",
+      "confirm-08-2": "order-red",
+      "confirm-08-3": "order-green",
+      "confirm-08-4": "order-red",
+      "confirm-08-5": "order-blue",
+      "confirm-09-0": null,
+      "confirm-09-1": null,
+      "confirm-09-2": "order-red",
+      "confirm-09-3": "order-red",
+      "confirm-09-4": "order-red",
+      "confirm-09-5": "order-red",
+      "confirm-10-0": "order-green",
+      "confirm-10-1": "order-green",
+      "confirm-10-2": "order-green",
+      "confirm-10-3": "order-green",
+      "confirm-10-4": null,
+      "confirm-10-5": null,
+      "confirm-11-0": null,
+      "confirm-11-1": null,
+      "confirm-11-2": "order-red",
+      "confirm-11-3": "order-red",
+      "confirm-11-4": "order-red",
+      "confirm-11-5": "order-red",
+      "confirm-12-0": "order-green",
+      "confirm-12-1": "order-green",
+      "confirm-12-2": "order-green",
+      "confirm-12-3": null,
+      "confirm-12-4": null,
+      "confirm-12-5": null,
+      "confirm-13-0": "order-blue",
+      "confirm-13-1": "order-blue",
+      "confirm-13-2": "order-blue",
+      "confirm-13-3": "order-blue",
+      "confirm-13-4": "order-blue",
+      "confirm-13-5": "order-blue",
+      "confirm-14-0": "order-green",
+      "confirm-14-1": "order-green",
+      "confirm-14-2": "order-green",
+      "confirm-14-3": null,
+      "confirm-14-4": null,
+      "confirm-14-5": null,
+      "confirm-15-0": "order-red",
+      "confirm-15-1": "order-red",
+      "confirm-15-2": "order-red",
+      "confirm-15-3": "order-red",
+      "confirm-15-4": "order-red",
+      "confirm-15-5": "order-red",
+      "confirm-16-0": "order-green",
+      "confirm-16-1": "order-green",
+      "confirm-16-2": "order-green",
+      "confirm-16-3": "order-green",
+      "confirm-16-4": "order-green",
+      "confirm-16-5": "order-green",
+      "confirm-17-0": null,
+      "confirm-17-1": null,
+      "confirm-17-2": null,
+      "confirm-17-3": null,
+      "confirm-17-4": null,
+      "confirm-17-5": null,
+      "confirm-18-0": "order-green",
+      "confirm-18-1": "order-green",
+      "confirm-18-2": "order-green",
+      "confirm-18-3": "order-green",
+      "confirm-18-4": "order-green",
+      "confirm-18-5": "order-green",
+      "confirm-19-0": "order-red",
+      "confirm-19-1": "order-red",
+      "confirm-19-2": "order-red",
+      "confirm-19-3": "order-red",
+      "confirm-19-4": "order-red",
+      "confirm-19-5": "order-red",
+      "confirm-20-0": "order-green",
+      "confirm-20-1": "order-green",
+      "confirm-20-2": "order-green",
+      "confirm-20-3": "order-green",
+      "confirm-20-4": null,
+      "confirm-20-5": null,
+      "confirm-21-0": "order-blue",
+      "confirm-21-1": "order-blue",
+      "confirm-21-2": "order-blue",
+      "confirm-21-3": "order-red",
+      "confirm-21-4": "order-red",
+      "confirm-21-5": "order-red",
+      "confirm-22-0": null,
+      "confirm-22-1": null,
+      "confirm-22-2": null,
+      "confirm-22-3": null,
+      "confirm-22-4": null,
+      "confirm-22-5": null,
+      "confirm-23-0": "order-red",
+      "confirm-23-1": "order-red",
+      "confirm-23-2": "order-red",
+      "confirm-23-3": "order-red",
+      "confirm-23-4": "order-red",
+      "confirm-23-5": "order-red",
+      "confirm-24-0": "order-green",
+      "confirm-24-1": "order-green",
+      "confirm-24-2": "order-green",
+      "confirm-24-3": "order-green",
+      "confirm-24-4": "order-green",
+      "confirm-24-5": "order-green"
+    }
+  },
+  "raw_summary": {
+    "cases": 144,
+    "raw_exact_correct": 121,
+    "raw_accuracy": 0.8402777777777778,
+    "eligible_targets": 24,
+    "eligible_raw_target_hits": 23,
+    "eligible_recall": 0.9583333333333334,
+    "permutation_groups": 24,
+    "consistent_groups": 20,
+    "controller_validation_performed": false,
+    "independent_final_qualified": false
+  },
+  "calibrated_diagnostic_summary": {
+    "cases": 144,
+    "raw_exact_correct": 80,
+    "raw_accuracy": 0.5555555555555556,
+    "eligible_targets": 24,
+    "eligible_raw_target_hits": 24,
+    "eligible_recall": 1.0,
+    "permutation_groups": 24,
+    "consistent_groups": 16,
+    "controller_validation_performed": false,
+    "independent_final_qualified": false
+  },
+  "baselines": {
+    "first_listed": {
+      "cases": 144,
+      "raw_exact_correct": 12,
+      "raw_accuracy": 0.08333333333333333,
+      "eligible_targets": 24,
+      "eligible_raw_target_hits": 8,
+      "eligible_recall": 0.3333333333333333,
+      "permutation_groups": 24,
+      "consistent_groups": 0,
+      "controller_validation_performed": false,
+      "independent_final_qualified": false
+    },
+    "always_abstain": {
+      "cases": 144,
+      "raw_exact_correct": 96,
+      "raw_accuracy": 0.6666666666666666,
+      "eligible_targets": 24,
+      "eligible_raw_target_hits": 0,
+      "eligible_recall": 0.0,
+      "permutation_groups": 24,
+      "consistent_groups": 24,
+      "controller_validation_performed": false,
+      "independent_final_qualified": false
+    },
+    "exact_grammar": {
+      "cases": 144,
+      "raw_exact_correct": 96,
+      "raw_accuracy": 0.6666666666666666,
+      "eligible_targets": 24,
+      "eligible_raw_target_hits": 0,
+      "eligible_recall": 0.0,
+      "permutation_groups": 24,
+      "consistent_groups": 24,
+      "controller_validation_performed": false,
+      "independent_final_qualified": false
+    }
+  },
+  "stage_gate_passed": false,
+  "worker_wall_seconds": 1436.935034689,
+  "owned_worker_stopped": true,
+  "temporary_artifacts_removed": true
+}

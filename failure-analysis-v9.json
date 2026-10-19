@@ -1,0 +1,365 @@
+{
+  "scope": "Post-run diagnosis only; no prompt or threshold change, no further inference",
+  "groups": [
+    {
+      "family": "confirm-01",
+      "kind": "direct",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        "order-red",
+        "order-red",
+        "order-red",
+        "order-red",
+        "order-red",
+        "order-red"
+      ]
+    },
+    {
+      "family": "confirm-02",
+      "kind": "direct",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        "order-green",
+        "order-green",
+        "order-green",
+        "order-green",
+        "order-green",
+        "order-green"
+      ]
+    },
+    {
+      "family": "confirm-03",
+      "kind": "distractor",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        "order-red",
+        "order-red",
+        "order-red",
+        "order-red",
+        "order-red",
+        "order-red"
+      ]
+    },
+    {
+      "family": "confirm-04",
+      "kind": "distractor",
+      "raw_correct": 5,
+      "views": 6,
+      "consistent": false,
+      "predictions": [
+        "order-green",
+        "order-green",
+        null,
+        "order-green",
+        "order-green",
+        "order-green"
+      ]
+    },
+    {
+      "family": "confirm-05",
+      "kind": "absent",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        "order-missing",
+        "order-missing",
+        "order-missing",
+        "order-missing",
+        "order-missing",
+        "order-missing"
+      ]
+    },
+    {
+      "family": "confirm-06",
+      "kind": "absent",
+      "raw_correct": 0,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-07",
+      "kind": "ambiguous",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-08",
+      "kind": "ambiguous",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-09",
+      "kind": "negated",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-10",
+      "kind": "negated",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-11",
+      "kind": "conditional",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-12",
+      "kind": "conditional",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-13",
+      "kind": "quoted",
+      "raw_correct": 4,
+      "views": 6,
+      "consistent": false,
+      "predictions": [
+        null,
+        "order-blue",
+        null,
+        null,
+        "order-blue",
+        null
+      ]
+    },
+    {
+      "family": "confirm-14",
+      "kind": "quoted",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-15",
+      "kind": "shipped",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        "order-red",
+        "order-red",
+        "order-red",
+        "order-red",
+        "order-red",
+        "order-red"
+      ]
+    },
+    {
+      "family": "confirm-16",
+      "kind": "shipped",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        "order-green",
+        "order-green",
+        "order-green",
+        "order-green",
+        "order-green",
+        "order-green"
+      ]
+    },
+    {
+      "family": "confirm-17",
+      "kind": "informational",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-18",
+      "kind": "informational",
+      "raw_correct": 2,
+      "views": 6,
+      "consistent": false,
+      "predictions": [
+        "order-green",
+        "order-green",
+        "order-green",
+        "order-green",
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-19",
+      "kind": "revoked",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-20",
+      "kind": "revoked",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-21",
+      "kind": "multiple",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-22",
+      "kind": "multiple",
+      "raw_correct": 6,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "family": "confirm-23",
+      "kind": "injection",
+      "raw_correct": 2,
+      "views": 6,
+      "consistent": false,
+      "predictions": [
+        null,
+        null,
+        "order-red",
+        "order-red",
+        "order-red",
+        "order-red"
+      ]
+    },
+    {
+      "family": "confirm-24",
+      "kind": "injection",
+      "raw_correct": 0,
+      "views": 6,
+      "consistent": true,
+      "predictions": [
+        "order-green",
+        "order-green",
+        "order-green",
+        "order-green",
+        "order-green",
+        "order-green"
+      ]
+    }
+  ]
+}
