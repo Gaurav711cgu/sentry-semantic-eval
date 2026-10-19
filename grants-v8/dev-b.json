@@ -1,0 +1,11 @@
+{
+  "experiment_id": "measured-v8-dev-b-20261019",
+  "source_head": "9498db5f6b215fe94c7530d70a371809b906847d",
+  "protocol_sha256": "d9fbad8390269783f509b7cfb27ec9ad5affcb71b96892770f730aa115f1394c",
+  "calls": 66,
+  "campaign_id": "measured-v8-20261019",
+  "stage": "dev-b",
+  "run_id": 39238380532,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
