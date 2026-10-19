@@ -1,0 +1,9 @@
+{
+  "experiment_id": "scope-curriculum-causal-lm-v12-20261019",
+  "source_head": "e356ba5ccedfa4fc96d74cceb4bf835bd60d6823",
+  "protocol_sha256": "c51ac618115124033b925d275417aec2bccfe5e8c9be41c8184076f9d72acecb",
+  "optimizer_steps_max": 128,
+  "run_id": 39303129410,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
