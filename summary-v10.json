@@ -1,0 +1,24 @@
+{
+  "execution_status": "complete",
+  "semantic_status": "failed_development_and_final_base_control",
+  "selected": "base",
+  "final_raw_correct": 162,
+  "final_cases": 216,
+  "final_eligible_recall": 0,
+  "training_steps": 256,
+  "training_seconds": 1460.3162073039998,
+  "scoring_reserved_max": 304,
+  "new_scoring_computations_completed": 227,
+  "independent_final_qualified": false,
+  "report_sha256": "d96ed70531e38d5ac2465fd53e1af2fa6c12563330f2f0751c3e1dc5bb00bc2c",
+  "adapters": {
+    "step128": {
+      "bytes": 934144,
+      "sha256": "989eb206868fe05f191871a65c6a2afd7c68ab41980440c78eff11b366ee0791"
+    },
+    "step256": {
+      "bytes": 934144,
+      "sha256": "a42da27004e7198c686b8e5fe8af1917085893568f72bd86b5210d59d64b5f3f"
+    }
+  }
+}
