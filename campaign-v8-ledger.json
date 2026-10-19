@@ -1,5 +1,17 @@
 {
   "campaign_id": "measured-v8-20261019",
   "budget_max": 296,
-  "grants": {}
+  "grants": {
+    "profile": {
+      "experiment_id": "measured-v8-profile-20261019",
+      "source_head": "a7db28ee128ec3e2981589d838c18c3dad18ba0a",
+      "protocol_sha256": "ccde2b4bacbc801419acf362a94e7b1ff66f1e98599ca24a0887bb783d24bcb3",
+      "calls": 8,
+      "campaign_id": "measured-v8-20261019",
+      "stage": "profile",
+      "run_id": 39237198966,
+      "attempt": 1,
+      "status": "consumed_before_execution"
+    }
+  }
 }
