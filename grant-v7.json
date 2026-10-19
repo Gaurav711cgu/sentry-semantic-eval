@@ -1,0 +1,9 @@
+{
+  "experiment_id": "qwen3-4b-q4km-admission-v7-20261019",
+  "source_head": "e28b85ef880df448514845907b786c99e0daeccb",
+  "protocol_sha256": "2ad7287b26c3ee43822558ded93208f06ca1572fe7561d983ecdbe4a59e83edc",
+  "calls": 4,
+  "run_id": 39234471571,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
