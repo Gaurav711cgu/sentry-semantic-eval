@@ -1,0 +1,246 @@
+{
+  "scope": "AI-authored exposed development references; no model calls; no final tuning",
+  "by_candidate": {
+    "a": {
+      "diagnostic-direct": {
+        "cases": 6,
+        "raw_correct": 6,
+        "predictions": [
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red"
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-distractor": {
+        "cases": 6,
+        "raw_correct": 5,
+        "predictions": [
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          null
+        ],
+        "permutation_consistent": false
+      },
+      "diagnostic-absent": {
+        "cases": 6,
+        "raw_correct": 0,
+        "predictions": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-ambiguous": {
+        "cases": 6,
+        "raw_correct": 6,
+        "predictions": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-negated": {
+        "cases": 6,
+        "raw_correct": 6,
+        "predictions": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-conditional": {
+        "cases": 6,
+        "raw_correct": 0,
+        "predictions": [
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red"
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-quoted": {
+        "cases": 6,
+        "raw_correct": 0,
+        "predictions": [
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red"
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-shipped": {
+        "cases": 6,
+        "raw_correct": 6,
+        "predictions": [
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red"
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-informational": {
+        "cases": 6,
+        "raw_correct": 0,
+        "predictions": [
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red"
+        ],
+        "permutation_consistent": true
+      }
+    },
+    "b": {
+      "diagnostic-direct": {
+        "cases": 6,
+        "raw_correct": 6,
+        "predictions": [
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red"
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-distractor": {
+        "cases": 6,
+        "raw_correct": 5,
+        "predictions": [
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          null
+        ],
+        "permutation_consistent": false
+      },
+      "diagnostic-absent": {
+        "cases": 6,
+        "raw_correct": 0,
+        "predictions": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-ambiguous": {
+        "cases": 6,
+        "raw_correct": 6,
+        "predictions": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-negated": {
+        "cases": 6,
+        "raw_correct": 6,
+        "predictions": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-conditional": {
+        "cases": 6,
+        "raw_correct": 1,
+        "predictions": [
+          "order-red",
+          null,
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red"
+        ],
+        "permutation_consistent": false
+      },
+      "diagnostic-quoted": {
+        "cases": 6,
+        "raw_correct": 0,
+        "predictions": [
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red"
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-shipped": {
+        "cases": 6,
+        "raw_correct": 6,
+        "predictions": [
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red",
+          "order-red"
+        ],
+        "permutation_consistent": true
+      },
+      "diagnostic-informational": {
+        "cases": 6,
+        "raw_correct": 6,
+        "predictions": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "permutation_consistent": true
+      }
+    }
+  },
+  "exact_grammar_baseline_raw_correct": 54,
+  "always_abstain_raw_correct": 30,
+  "selected_candidate": null
+}

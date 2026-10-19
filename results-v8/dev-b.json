@@ -1,0 +1,2169 @@
+{
+  "passed": false,
+  "independent_final_qualified": false,
+  "scope": "Raw classification diagnostic; actual-controller effects and rules comparison are separately required before promotion",
+  "execution_status": "completed",
+  "performance_status": "passed",
+  "semantic_status": "failed",
+  "evidence_status": "verified",
+  "independent_validation_status": "not_claimed",
+  "stage": "dev-b",
+  "calls_consumed": 66,
+  "completed_calls": 66,
+  "model_acquisition_started": true,
+  "events": [
+    {
+      "event": "loaded",
+      "dtype": "gguf_q4_k_m",
+      "uid": 65534,
+      "network_denied": true,
+      "private_canary_denied": true,
+      "load_seconds": 1.3527889749999957,
+      "peak_rss_bytes": 4529594368,
+      "llama_cpp": "0.3.36",
+      "numpy": "1.26.4",
+      "python": "3.11.15",
+      "threads": 4,
+      "cpu_count": 4,
+      "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves user_shstk avx_vnni avx512_bf16 vnmi avx512vbmi umip waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid cldemote movdiri movdir64b fsrm serialize tsxldtrk ibt amx_bf16 avx512_fp16 amx_tile amx_int8 arch_capabilities"
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        24.293895721435547,
+        52.5124397277832,
+        24.84746551513672,
+        22.24580955505371
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 211,
+      "duration_seconds": 6.526460938000014,
+      "peak_rss_bytes": 4589092864
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-0",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-0",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        52.4599609375,
+        25.072967529296875,
+        23.520469665527344,
+        21.08172607421875
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 209,
+      "duration_seconds": 6.436779092000009,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        23.93564224243164,
+        52.63569641113281,
+        24.93912124633789,
+        22.168869018554688
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 211,
+      "duration_seconds": 6.510065027000024,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-1",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-1",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        52.24577331542969,
+        25.553491592407227,
+        23.916954040527344,
+        21.161630630493164
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 209,
+      "duration_seconds": 6.464851753000005,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        24.241500854492188,
+        24.462505340576172,
+        54.24927520751953,
+        24.224123001098633
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 211,
+      "duration_seconds": 6.5197587210000165,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-2",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-2",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        52.55421829223633,
+        25.344364166259766,
+        23.90130615234375,
+        21.2750301361084
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 209,
+      "duration_seconds": 6.4437075040000025,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        24.029483795166016,
+        23.72055435180664,
+        25.088539123535156,
+        53.7874870300293
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 211,
+      "duration_seconds": 6.514202167999997,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-3",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-3",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        52.422698974609375,
+        25.56281852722168,
+        23.87839126586914,
+        21.076133728027344
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 209,
+      "duration_seconds": 6.390148573000005,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        24.18759536743164,
+        23.678508758544922,
+        54.22140121459961,
+        24.5379638671875
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 211,
+      "duration_seconds": 6.524726085999987,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-4",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-4",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        51.832252502441406,
+        25.014373779296875,
+        23.795013427734375,
+        21.21460723876953
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 209,
+      "duration_seconds": 6.441493052999988,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        23.804405212402344,
+        23.152891159057617,
+        24.943695068359375,
+        53.977535247802734
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 211,
+      "duration_seconds": 6.523693422999997,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-direct-5",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-direct-5",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        53.17292022705078,
+        26.057554244995117,
+        24.20819091796875,
+        21.519927978515625
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 209,
+      "duration_seconds": 6.403856949000016,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-distractor-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-distractor-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        26.56555938720703,
+        39.69774627685547,
+        25.18189811706543,
+        19.259967803955078
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 214,
+      "duration_seconds": 6.58485124500001,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-distractor-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-distractor-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        24.586946487426758,
+        40.8382568359375,
+        23.111268997192383,
+        19.498044967651367
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 214,
+      "duration_seconds": 6.635500265000019,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-distractor-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-distractor-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        29.630741119384766,
+        22.12625503540039,
+        43.2492790222168,
+        22.761383056640625
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 214,
+      "duration_seconds": 6.589828562000008,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-distractor-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-distractor-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        29.72688865661621,
+        20.870216369628906,
+        27.41667938232422,
+        38.67463302612305
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 214,
+      "duration_seconds": 6.612728156999992,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-distractor-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-distractor-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        26.453880310058594,
+        22.05616569519043,
+        38.77924728393555,
+        23.86921501159668
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 214,
+      "duration_seconds": 6.561124329999984,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-distractor-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-distractor-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        34.07246398925781,
+        25.535720825195312,
+        28.27271270751953,
+        27.649494171142578
+      ],
+      "top_token_id": 785,
+      "top_token_text": "The",
+      "top_token_is_option": false,
+      "input_tokens": 214,
+      "duration_seconds": 6.613306391000009,
+      "peak_rss_bytes": 4590141440
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green",
+        "order-missing"
+      ],
+      "logits": [
+        45.71290588378906,
+        22.64583969116211,
+        22.982128143310547,
+        20.561460494995117,
+        39.46531677246094
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 219,
+      "duration_seconds": 6.798535173000005,
+      "peak_rss_bytes": 4590157824
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-0",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-0",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green",
+        "order-missing"
+      ],
+      "logits": [
+        53.23529815673828,
+        24.84759521484375,
+        25.308258056640625,
+        22.32926368713379,
+        29.81685447692871
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 217,
+      "duration_seconds": 6.699080919000011,
+      "peak_rss_bytes": 4590288896
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue",
+        "order-missing"
+      ],
+      "logits": [
+        46.039703369140625,
+        22.97426986694336,
+        23.18173599243164,
+        20.653215408325195,
+        39.69630432128906
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 219,
+      "duration_seconds": 6.806718055000005,
+      "peak_rss_bytes": 4590288896
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-1",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-1",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue",
+        "order-missing"
+      ],
+      "logits": [
+        53.92536163330078,
+        26.148420333862305,
+        26.19375991821289,
+        22.725322723388672,
+        30.7897891998291
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 217,
+      "duration_seconds": 6.655899066999979,
+      "peak_rss_bytes": 4590288896
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green",
+        "order-missing"
+      ],
+      "logits": [
+        45.55086898803711,
+        22.66292953491211,
+        22.866884231567383,
+        20.608631134033203,
+        39.312767028808594
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 219,
+      "duration_seconds": 6.748492283000019,
+      "peak_rss_bytes": 4590288896
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-2",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-2",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green",
+        "order-missing"
+      ],
+      "logits": [
+        52.830238342285156,
+        25.409439086914062,
+        25.492340087890625,
+        22.246084213256836,
+        30.111778259277344
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 217,
+      "duration_seconds": 6.6540860399999815,
+      "peak_rss_bytes": 4590288896
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red",
+        "order-missing"
+      ],
+      "logits": [
+        46.33925247192383,
+        22.766231536865234,
+        23.256690979003906,
+        20.459857940673828,
+        40.436424255371094
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 219,
+      "duration_seconds": 6.7541765080000005,
+      "peak_rss_bytes": 4590288896
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-3",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-3",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red",
+        "order-missing"
+      ],
+      "logits": [
+        53.01128387451172,
+        24.91775894165039,
+        25.541336059570312,
+        22.310009002685547,
+        30.507732391357422
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 217,
+      "duration_seconds": 6.634296390999964,
+      "peak_rss_bytes": 4590288896
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue",
+        "order-missing"
+      ],
+      "logits": [
+        46.623756408691406,
+        23.15515899658203,
+        23.18452262878418,
+        20.787582397460938,
+        40.55503463745117
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 219,
+      "duration_seconds": 6.752964253000016,
+      "peak_rss_bytes": 4590288896
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-4",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-4",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue",
+        "order-missing"
+      ],
+      "logits": [
+        52.78999328613281,
+        25.068204879760742,
+        25.327423095703125,
+        22.116865158081055,
+        30.134136199951172
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 217,
+      "duration_seconds": 6.660389180000038,
+      "peak_rss_bytes": 4590288896
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red",
+        "order-missing"
+      ],
+      "logits": [
+        45.64752197265625,
+        22.63031005859375,
+        22.903148651123047,
+        20.404138565063477,
+        39.68488693237305
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 219,
+      "duration_seconds": 6.760089291999975,
+      "peak_rss_bytes": 4590288896
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-absent-5",
+      "mode": "content_free"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-absent-5",
+      "mode": "content_free",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red",
+        "order-missing"
+      ],
+      "logits": [
+        52.90222930908203,
+        24.927108764648438,
+        25.403766632080078,
+        21.827939987182617,
+        29.658287048339844
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 217,
+      "duration_seconds": 6.881148053000004,
+      "peak_rss_bytes": 4590288896
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-ambiguous-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-ambiguous-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        41.9638671875,
+        35.89647674560547,
+        26.92862892150879,
+        28.423229217529297
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.658888407999996,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-ambiguous-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-ambiguous-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        43.430572509765625,
+        37.5318489074707,
+        28.87931251525879,
+        27.807252883911133
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.5120100689999845,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-ambiguous-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-ambiguous-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        38.05179977416992,
+        36.186519622802734,
+        28.27002716064453,
+        30.617830276489258
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.458635387000015,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-ambiguous-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-ambiguous-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        39.5449333190918,
+        37.709388732910156,
+        29.35285186767578,
+        32.722042083740234
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.453566680999984,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-ambiguous-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-ambiguous-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        40.97998046875,
+        37.21160125732422,
+        27.452077865600586,
+        28.424318313598633
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.434961999000052,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-ambiguous-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-ambiguous-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        40.0059814453125,
+        37.85823059082031,
+        27.332977294921875,
+        27.532299041748047
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.430199066,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-negated-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-negated-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        48.23945617675781,
+        23.64458656311035,
+        22.44839859008789,
+        19.102323532104492
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 212,
+      "duration_seconds": 6.484612381999966,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-negated-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-negated-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        47.35118103027344,
+        23.278797149658203,
+        22.078014373779297,
+        18.796321868896484
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 212,
+      "duration_seconds": 6.491104462999999,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-negated-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-negated-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        46.140869140625,
+        23.69831085205078,
+        23.955974578857422,
+        19.397184371948242
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 212,
+      "duration_seconds": 6.530338262999976,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-negated-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-negated-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        46.19903564453125,
+        23.00763511657715,
+        22.42635726928711,
+        22.570375442504883
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 212,
+      "duration_seconds": 6.478430202000027,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-negated-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-negated-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        47.06837463378906,
+        24.839099884033203,
+        24.549148559570312,
+        20.14849090576172
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 212,
+      "duration_seconds": 6.476431067000021,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-negated-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-negated-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        46.76776123046875,
+        22.81317138671875,
+        22.587339401245117,
+        23.3154239654541
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 212,
+      "duration_seconds": 6.4643056899999465,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-conditional-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-conditional-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        38.25562286376953,
+        39.1001091003418,
+        22.207679748535156,
+        18.36985206604004
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 214,
+      "duration_seconds": 6.569958294999992,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-conditional-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-conditional-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        40.771854400634766,
+        40.418731689453125,
+        22.84571647644043,
+        19.13841438293457
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 214,
+      "duration_seconds": 6.5545227220000015,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-conditional-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-conditional-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        28.403379440307617,
+        21.820148468017578,
+        45.014869689941406,
+        19.968868255615234
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 214,
+      "duration_seconds": 6.5628649559999985,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-conditional-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-conditional-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        29.289047241210938,
+        19.718406677246094,
+        20.932964324951172,
+        42.47406005859375
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 214,
+      "duration_seconds": 6.581573298000023,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-conditional-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-conditional-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        28.469135284423828,
+        22.8416748046875,
+        46.104225158691406,
+        21.280059814453125
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 214,
+      "duration_seconds": 6.624008414999992,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-conditional-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-conditional-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        32.56559753417969,
+        20.879724502563477,
+        21.792741775512695,
+        43.993316650390625
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 214,
+      "duration_seconds": 6.601711217000002,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-quoted-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-quoted-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        24.293865203857422,
+        50.33967590332031,
+        23.926727294921875,
+        21.328571319580078
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 6.771107500000028,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-quoted-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-quoted-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        24.907264709472656,
+        51.45227813720703,
+        24.486175537109375,
+        22.204484939575195
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 6.780966872000022,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-quoted-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-quoted-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        24.577728271484375,
+        23.643136978149414,
+        53.41845703125,
+        22.9732608795166
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 6.753062267000018,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-quoted-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-quoted-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        25.288360595703125,
+        24.314897537231445,
+        25.78324317932129,
+        54.329315185546875
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 6.7638438519999795,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-quoted-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-quoted-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        24.512126922607422,
+        23.58456039428711,
+        52.82853698730469,
+        23.462493896484375
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 6.739071485000011,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-quoted-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-quoted-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        24.961570739746094,
+        24.417869567871094,
+        25.67022132873535,
+        54.602272033691406
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 220,
+      "duration_seconds": 6.758069238000019,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-shipped-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-shipped-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        24.44904327392578,
+        51.098541259765625,
+        24.166282653808594,
+        21.462657928466797
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.447588024999959,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-shipped-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-shipped-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        24.609546661376953,
+        51.577823638916016,
+        24.849021911621094,
+        21.971603393554688
+      ],
+      "top_token_id": 33,
+      "top_token_text": "B",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.496892061999972,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-shipped-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-shipped-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        24.106494903564453,
+        23.756446838378906,
+        53.43370819091797,
+        23.790115356445312
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.454881993000015,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-shipped-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-shipped-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        23.61997413635254,
+        22.598045349121094,
+        24.491897583007812,
+        52.25380325317383
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.449251022999988,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-shipped-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-shipped-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        23.986045837402344,
+        23.07453155517578,
+        52.30335998535156,
+        23.747926712036133
+      ],
+      "top_token_id": 34,
+      "top_token_text": "C",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.440545705000034,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-shipped-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-shipped-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        24.53986930847168,
+        23.627273559570312,
+        25.510456085205078,
+        53.61310577392578
+      ],
+      "top_token_id": 35,
+      "top_token_text": "D",
+      "top_token_is_option": true,
+      "input_tokens": 210,
+      "duration_seconds": 6.434978771999965,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-informational-0",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-informational-0",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-blue",
+        "order-green"
+      ],
+      "logits": [
+        52.94165802001953,
+        29.71955108642578,
+        24.11207389831543,
+        21.039295196533203
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 216,
+      "duration_seconds": 6.614897675999941,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-informational-1",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-informational-1",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-red",
+        "order-green",
+        "order-blue"
+      ],
+      "logits": [
+        52.58997344970703,
+        30.54327392578125,
+        24.448217391967773,
+        20.806564331054688
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 216,
+      "duration_seconds": 6.628489060999982,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-informational-2",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-informational-2",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-red",
+        "order-green"
+      ],
+      "logits": [
+        45.60205078125,
+        27.207347869873047,
+        42.64582824707031,
+        20.888813018798828
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 216,
+      "duration_seconds": 6.6173925539999345,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-informational-3",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-informational-3",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-blue",
+        "order-green",
+        "order-red"
+      ],
+      "logits": [
+        47.096580505371094,
+        25.683128356933594,
+        23.12427520751953,
+        38.496482849121094
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 216,
+      "duration_seconds": 6.603710028000023,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-informational-4",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-informational-4",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-red",
+        "order-blue"
+      ],
+      "logits": [
+        47.104000091552734,
+        26.882925033569336,
+        41.84535217285156,
+        21.315780639648438
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 216,
+      "duration_seconds": 6.6669579800000065,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "started",
+      "id": "diagnostic-informational-5",
+      "mode": "raw"
+    },
+    {
+      "event": "completed",
+      "id": "diagnostic-informational-5",
+      "mode": "raw",
+      "options": [
+        null,
+        "order-green",
+        "order-blue",
+        "order-red"
+      ],
+      "logits": [
+        46.93680191040039,
+        25.070335388183594,
+        22.63445281982422,
+        37.3963737487793
+      ],
+      "top_token_id": 32,
+      "top_token_text": "A",
+      "top_token_is_option": true,
+      "input_tokens": 216,
+      "duration_seconds": 6.637625430999947,
+      "peak_rss_bytes": 4590419968
+    },
+    {
+      "event": "finished",
+      "completed_calls": 66
+    }
+  ],
+  "grant": {
+    "experiment_id": "measured-v8-dev-b-20261019",
+    "source_head": "9498db5f6b215fe94c7530d70a371809b906847d",
+    "protocol_sha256": "d9fbad8390269783f509b7cfb27ec9ad5affcb71b96892770f730aa115f1394c",
+    "calls": 66,
+    "campaign_id": "measured-v8-20261019",
+    "stage": "dev-b",
+    "run_id": 39238380532,
+    "attempt": 1,
+    "status": "consumed_before_execution"
+  },
+  "source_sha256": {
+    "campaign_v8.py": "2432bccba99eca61c42c7dd5d8b777f8f67c56e2591b0ebcc45f5579035420e2",
+    "campaign_v8.json": "d0622b06a153c3fa91bbae717b598a578fb65553413c224c668c2a9d9126e91d",
+    "test_campaign_v8.py": "848389ae07f377813e1aa4ed0d6d142abb093cb159fa3f0081ae707c769367bc",
+    "run_campaign_v8.py": "b65919f6e408cd73090d9862efab82bb52d0d186caefeccee0accba94cd93507",
+    "contracts.py": "4bfe855af2b26947e6d0554529e663d94f2678728537181c6fd646e347c76655",
+    "contracts_v7.py": "1d12efd4d26573dd68c27fce451b817eb7541cdcb813121b3e4b2ba46b7c6c2f",
+    "prompts_v7.py": "baee37881cb4180930b700c93c16aec56a1e9abaab9ad36edec4cbfe591dd2f1",
+    "worker_v7.py": "dc2d3145f1d9c73aba668e7e7ded64e88fd85be19b52f622101774f9b9ad9821",
+    "test_contracts.py": "c4d324f6ebf50d2ebae871d8cdae9eb6bbabedcfc16305f739a51911a96f836d",
+    "test_v6.py": "26436748e4a1b0bb208ff37579ba61eb57361ff441dc919fe56bf6526f91a939",
+    "test_v7.py": "8c3a46af86fdd60b9fa2edb69e2faf2ccdfe8f935f27b383942bd3368bc5dd6c",
+    "contracts_v6.py": "14f9a9f8a52da3849bf8a7eeec8f55c7c28e3d766aa59fc4e20343dd395fce11",
+    "protocol.json": "401de20261a8ce4da54430449a81e5a22457f8bb292584ecf30e872166ff48fe",
+    "protocol_v6.json": "8992a361c95fa0733572ac8230d97d8137678566fd1baf6ba6d6f7876973fe01",
+    "protocol_v7.json": "2ad7287b26c3ee43822558ded93208f06ca1572fe7561d983ecdbe4a59e83edc",
+    "gold.json": "80dbc5df90d290036f0164d356255dd715f70f04b110cb5ea83ca145777d70cb",
+    "confirmatory_v8.json": "f9dc432db562fe73f083e46ebd9da2daddc6d7484a0f3e1fb5c8f82f9ffb7324",
+    "gold_confirm_v8.json": "34fbb0eafe83ffb7fd5a6aa87fe3d4523bc6f2a6b7d75e1e11394c79cd8d35e7",
+    ".github/workflows/campaign-v8.yml": "4c42f96475e67a26cd25518bae3e02268f753ecbe9c8a741f3338240f2b29eb3",
+    "qwen3_LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+    "qwen3_tokenizer_config.json": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+    "v7-metadata.json": "e2bc77bb224662f0b25d8368b6c3fb431920e9fdccb3f2bb2f2aabd1c8ef8194",
+    "guards_v8.py": "87957712af7b0bb8c5575b03dec5d6c0fec47861777ca8f4f4b500ec09652367",
+    "test_guards_v8.py": "f651f46412417ab91dd21e1038fdab46107d25623c62b028d06ccea742e08ceb",
+    "run_campaign_v8_guarded.py": "7491bbd63e32c319f06fb8b4385762108ec4af7950c1e2c8bc26a9de77af9922",
+    ".github/workflows/campaign-v8-guarded.yml": "b3e675c507d9ece0a0e02b2f6f18b197f8b1af92285647324ab5c367c7109431"
+  },
+  "model": {
+    "model": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+    "revision": "a06e946bb6b655725eafa393f4a9745d460374c9",
+    "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "license": "Apache-2.0 as publisher declared",
+    "weights_file": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "files": {
+      "qwen3_LICENSE": {
+        "bytes": 11343,
+        "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+        "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/LICENSE"
+      },
+      "qwen3_tokenizer_config.json": {
+        "bytes": 9377,
+        "sha256": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+        "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/cdbee75f17c01a7cc42f958dc650907174af0554/tokenizer_config.json"
+      },
+      "Qwen3-4B-Instruct-2507-Q4_K_M.gguf": {
+        "bytes": 2497281120,
+        "sha256": "3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597",
+        "url": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/a06e946bb6b655725eafa393f4a9745d460374c9/Qwen3-4B-Instruct-2507-Q4_K_M.gguf"
+      }
+    }
+  },
+  "protocol_sha256": "d9fbad8390269783f509b7cfb27ec9ad5affcb71b96892770f730aa115f1394c",
+  "campaign_calls_reserved": 140,
+  "prerequisites_verified": {
+    "profile": {
+      "report_sha256": "05f3ca41b33124872d068268f4d6526062410466abb00cb966e8cd2c2d1b5e0a",
+      "protocol_sha256": "ccde2b4bacbc801419acf362a94e7b1ff66f1e98599ca24a0887bb783d24bcb3",
+      "grant_sha256": "2a8a12e7f4a797b938aad68c15a8a75eba0f71bf1fc10e3c6c35649d6cc45212",
+      "run_id": 39237198966,
+      "execution_status": "completed",
+      "evidence_status": "verified"
+    }
+  },
+  "max_forward_seconds": 6.881148053000004,
+  "max_rss_bytes": 4590419968,
+  "semantic_quality_qualified": false,
+  "logical_request_count": 108,
+  "physical_scoring_calls": 66,
+  "calibration_aliases": 42,
+  "predictions": {
+    "raw": {
+      "diagnostic-direct-0": "order-red",
+      "diagnostic-direct-1": "order-red",
+      "diagnostic-direct-2": "order-red",
+      "diagnostic-direct-3": "order-red",
+      "diagnostic-direct-4": "order-red",
+      "diagnostic-direct-5": "order-red",
+      "diagnostic-distractor-0": "order-red",
+      "diagnostic-distractor-1": "order-red",
+      "diagnostic-distractor-2": "order-red",
+      "diagnostic-distractor-3": "order-red",
+      "diagnostic-distractor-4": "order-red",
+      "diagnostic-distractor-5": null,
+      "diagnostic-absent-0": null,
+      "diagnostic-absent-1": null,
+      "diagnostic-absent-2": null,
+      "diagnostic-absent-3": null,
+      "diagnostic-absent-4": null,
+      "diagnostic-absent-5": null,
+      "diagnostic-ambiguous-0": null,
+      "diagnostic-ambiguous-1": null,
+      "diagnostic-ambiguous-2": null,
+      "diagnostic-ambiguous-3": null,
+      "diagnostic-ambiguous-4": null,
+      "diagnostic-ambiguous-5": null,
+      "diagnostic-negated-0": null,
+      "diagnostic-negated-1": null,
+      "diagnostic-negated-2": null,
+      "diagnostic-negated-3": null,
+      "diagnostic-negated-4": null,
+      "diagnostic-negated-5": null,
+      "diagnostic-conditional-0": "order-red",
+      "diagnostic-conditional-1": null,
+      "diagnostic-conditional-2": "order-red",
+      "diagnostic-conditional-3": "order-red",
+      "diagnostic-conditional-4": "order-red",
+      "diagnostic-conditional-5": "order-red",
+      "diagnostic-quoted-0": "order-red",
+      "diagnostic-quoted-1": "order-red",
+      "diagnostic-quoted-2": "order-red",
+      "diagnostic-quoted-3": "order-red",
+      "diagnostic-quoted-4": "order-red",
+      "diagnostic-quoted-5": "order-red",
+      "diagnostic-shipped-0": "order-red",
+      "diagnostic-shipped-1": "order-red",
+      "diagnostic-shipped-2": "order-red",
+      "diagnostic-shipped-3": "order-red",
+      "diagnostic-shipped-4": "order-red",
+      "diagnostic-shipped-5": "order-red",
+      "diagnostic-informational-0": null,
+      "diagnostic-informational-1": null,
+      "diagnostic-informational-2": null,
+      "diagnostic-informational-3": null,
+      "diagnostic-informational-4": null,
+      "diagnostic-informational-5": null
+    },
+    "calibrated_diagnostic": {
+      "diagnostic-direct-0": "order-red",
+      "diagnostic-direct-1": "order-red",
+      "diagnostic-direct-2": "order-red",
+      "diagnostic-direct-3": "order-red",
+      "diagnostic-direct-4": "order-red",
+      "diagnostic-direct-5": "order-red",
+      "diagnostic-distractor-0": "order-red",
+      "diagnostic-distractor-1": "order-red",
+      "diagnostic-distractor-2": "order-red",
+      "diagnostic-distractor-3": "order-red",
+      "diagnostic-distractor-4": "order-red",
+      "diagnostic-distractor-5": "order-red",
+      "diagnostic-absent-0": "order-missing",
+      "diagnostic-absent-1": "order-missing",
+      "diagnostic-absent-2": "order-missing",
+      "diagnostic-absent-3": "order-missing",
+      "diagnostic-absent-4": "order-missing",
+      "diagnostic-absent-5": "order-missing",
+      "diagnostic-ambiguous-0": "order-red",
+      "diagnostic-ambiguous-1": "order-red",
+      "diagnostic-ambiguous-2": "order-blue",
+      "diagnostic-ambiguous-3": "order-blue",
+      "diagnostic-ambiguous-4": "order-green",
+      "diagnostic-ambiguous-5": "order-green",
+      "diagnostic-negated-0": "order-blue",
+      "diagnostic-negated-1": "order-green",
+      "diagnostic-negated-2": "order-red",
+      "diagnostic-negated-3": "order-red",
+      "diagnostic-negated-4": "order-red",
+      "diagnostic-negated-5": "order-red",
+      "diagnostic-conditional-0": "order-red",
+      "diagnostic-conditional-1": "order-red",
+      "diagnostic-conditional-2": "order-red",
+      "diagnostic-conditional-3": "order-red",
+      "diagnostic-conditional-4": "order-red",
+      "diagnostic-conditional-5": "order-red",
+      "diagnostic-quoted-0": "order-red",
+      "diagnostic-quoted-1": "order-red",
+      "diagnostic-quoted-2": "order-red",
+      "diagnostic-quoted-3": "order-red",
+      "diagnostic-quoted-4": "order-red",
+      "diagnostic-quoted-5": "order-red",
+      "diagnostic-shipped-0": "order-red",
+      "diagnostic-shipped-1": "order-red",
+      "diagnostic-shipped-2": "order-red",
+      "diagnostic-shipped-3": "order-red",
+      "diagnostic-shipped-4": "order-red",
+      "diagnostic-shipped-5": "order-red",
+      "diagnostic-informational-0": "order-red",
+      "diagnostic-informational-1": "order-red",
+      "diagnostic-informational-2": "order-red",
+      "diagnostic-informational-3": "order-red",
+      "diagnostic-informational-4": "order-red",
+      "diagnostic-informational-5": "order-red"
+    }
+  },
+  "raw_summary": {
+    "cases": 54,
+    "raw_exact_correct": 36,
+    "raw_accuracy": 0.6666666666666666,
+    "eligible_targets": 12,
+    "eligible_raw_target_hits": 11,
+    "eligible_recall": 0.9166666666666666,
+    "permutation_groups": 9,
+    "consistent_groups": 7,
+    "controller_validation_performed": false,
+    "independent_final_qualified": false
+  },
+  "calibrated_diagnostic_summary": {
+    "cases": 54,
+    "raw_exact_correct": 24,
+    "raw_accuracy": 0.4444444444444444,
+    "eligible_targets": 12,
+    "eligible_raw_target_hits": 12,
+    "eligible_recall": 1.0,
+    "permutation_groups": 9,
+    "consistent_groups": 7,
+    "controller_validation_performed": false,
+    "independent_final_qualified": false
+  },
+  "baselines": {
+    "first_listed": {
+      "cases": 54,
+      "raw_exact_correct": 6,
+      "raw_accuracy": 0.1111111111111111,
+      "eligible_targets": 12,
+      "eligible_raw_target_hits": 4,
+      "eligible_recall": 0.3333333333333333,
+      "permutation_groups": 9,
+      "consistent_groups": 0,
+      "controller_validation_performed": false,
+      "independent_final_qualified": false
+    },
+    "always_abstain": {
+      "cases": 54,
+      "raw_exact_correct": 30,
+      "raw_accuracy": 0.5555555555555556,
+      "eligible_targets": 12,
+      "eligible_raw_target_hits": 0,
+      "eligible_recall": 0.0,
+      "permutation_groups": 9,
+      "consistent_groups": 9,
+      "controller_validation_performed": false,
+      "independent_final_qualified": false
+    },
+    "exact_grammar": {
+      "cases": 54,
+      "raw_exact_correct": 54,
+      "raw_accuracy": 1.0,
+      "eligible_targets": 12,
+      "eligible_raw_target_hits": 12,
+      "eligible_recall": 1.0,
+      "permutation_groups": 9,
+      "consistent_groups": 9,
+      "controller_validation_performed": false,
+      "independent_final_qualified": false
+    }
+  },
+  "stage_gate_passed": false,
+  "worker_wall_seconds": 437.914683416,
+  "owned_worker_stopped": true,
+  "temporary_artifacts_removed": true
+}

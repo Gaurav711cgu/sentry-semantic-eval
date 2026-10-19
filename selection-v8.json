@@ -1,0 +1,31 @@
+{
+  "campaign_id": "measured-v8-20261019",
+  "selected_candidate": null,
+  "decision": "reject_promotion",
+  "reason": "Neither admitted candidate passed raw accuracy and permutation-consistency gates",
+  "physical_scoring_calls_reserved": 140,
+  "physical_scoring_calls_completed": 140,
+  "confirmatory_calls_reserved": 0,
+  "confirmatory_calls_completed": 0,
+  "independent_validation_status": "not_claimed",
+  "prerequisite_reports": {
+    "profile": {
+      "report_sha256": "05f3ca41b33124872d068268f4d6526062410466abb00cb966e8cd2c2d1b5e0a",
+      "protocol_sha256": "ccde2b4bacbc801419acf362a94e7b1ff66f1e98599ca24a0887bb783d24bcb3",
+      "grant_sha256": "2a8a12e7f4a797b938aad68c15a8a75eba0f71bf1fc10e3c6c35649d6cc45212",
+      "run_id": 39237198966
+    },
+    "dev-a": {
+      "report_sha256": "e6592531cce43630096b34a749b498bf974916ffc2413dc68ea9b4d3319864db",
+      "protocol_sha256": "0b847378b0a1db7bc344a58cca66170a530b88bede6c24e80dd85641d612b183",
+      "grant_sha256": "521ac211bb0da98005d2645ace0ab4adca2f5430173ece51f2dfdb9924158b24",
+      "run_id": 39238375635
+    },
+    "dev-b": {
+      "report_sha256": "ef4222f0a7a235217e5f293d0a4d9c9dee6f06d39bbeceecbe2b9f6b9c71bed8",
+      "protocol_sha256": "d9fbad8390269783f509b7cfb27ec9ad5affcb71b96892770f730aa115f1394c",
+      "grant_sha256": "8a991d4957b4feaba8b37f4de3848fb243e6c5844ba8d8acd6617a27c63c6aa8",
+      "run_id": 39238380532
+    }
+  }
+}
