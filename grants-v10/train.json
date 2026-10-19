@@ -1,0 +1,9 @@
+{
+  "experiment_id": "supervised-causal-lm-v10-20261019",
+  "source_head": "e3e60e93754c79aeb40a37296b7a3d9dfb0f3168",
+  "protocol_sha256": "8dbca66dda7351e85b58a868f4d0d0d82b0a467378629e17834817df94eb851d",
+  "optimizer_steps_max": 256,
+  "run_id": 39294671400,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
