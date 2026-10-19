@@ -1,0 +1,9 @@
+{
+  "experiment_id": "context-condition-curriculum-causal-lm-v13-20261020",
+  "source_head": "e645ee19a1c8645619d0db61113e6fc4098d56bc",
+  "protocol_sha256": "293b6eaac91a290aef1d1e3554a6b7a5b52ec8531ea4febc2d60602710259b39",
+  "optimizer_steps_max": 128,
+  "run_id": 39305815264,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
