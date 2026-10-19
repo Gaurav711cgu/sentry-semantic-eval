@@ -1,0 +1,34 @@
+name: One-shot context-condition curriculum causal LM v13
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  measured:
+    if: github.repository == 'Gaurav711cgu/sentry-semantic-eval'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 65
+    env:
+      PIP_NO_CACHE_DIR: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11.15'
+      - name: Install pinned CPU-only runtime without model weights
+        run: |
+          python -m venv /tmp/sentry-trained-runtime
+          /tmp/sentry-trained-runtime/bin/pip install --only-binary=:all: torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          /tmp/sentry-trained-runtime/bin/pip install --only-binary=:all: transformers==4.57.6 numpy==1.26.4 safetensors==0.7.0 tokenizers==0.22.2 huggingface-hub==0.36.0
+          /tmp/sentry-trained-runtime/bin/pip check
+          /tmp/sentry-trained-runtime/bin/pip freeze
+      - name: Contracts and tiny tensor tests before weight acquisition
+        run: /tmp/sentry-trained-runtime/bin/python -m unittest -v test_pair_v10 test_data_v10 test_lora_v10 test_worker_v10 test_evaluate_v10 test_run_v10 test_model_stack_v10 test_data_v11 test_training_v11 test_data_v12 test_data_v13
+      - name: Exact consumed training grant, offline workers, frozen development selection
+        env:
+          PROBE_PYTHON: /tmp/sentry-trained-runtime/bin/python
+        run: |
+          chmod 700 "$GITHUB_WORKSPACE"
+          python run_v13.py
