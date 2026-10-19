@@ -20,16 +20,19 @@ private controller validates proposed effects. No rules fallback repairs targets
 | V10 trained adapters | 96/144 (66.7%) | 12/24 (50%) | Unadapted base was selected; trained adapter not promoted |
 | V11 corrective curriculum | 126/144 (87.5%) | 18/24 (75%) | Admission failed; no final inference |
 | V12 context curriculum | 126/144 (87.5%) | 24/24 (100%) | Admission failed; no final inference |
+| V13 context and condition curriculum | Initialization still ranks best | No improvement over V12 | Admission failed; no final inference |
 
 These are 24 scenarios, each under six correlated snapshot permutations.
 Permutation invariance is structural normalization, not learned robustness.
 V12 still misses two absent-order requests and wrongly accepts one conditional
 request. Higher eligible recall does not establish better overall accuracy.
-No trained adapter currently has measured-demo qualification. V13 is a separately
-budgeted active experiment; its outcome is not yet known.
+No trained adapter currently has measured-demo qualification. V13 completed
+without improving on its initialization; its new checkpoints also failed
+admission. The reserved final remains untouched.
 
 Protocols and results: [V10](RESULTS_V10.md), [V11](RESULTS_V11.md),
-[V12](RESULTS_V12.md), [V13 frozen plan](TRAINING_V13.md).
+[V12](RESULTS_V12.md), [V13 result](RESULTS_V13.md),
+[V13 frozen plan](TRAINING_V13.md).
 The model architecture, normalization, train/serve scoring primitives and failed
 history remain visible. The original Qwen prompt experiments below use different
 banks; their percentages are not directly comparable to this development table.
