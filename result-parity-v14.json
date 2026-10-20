@@ -1,0 +1,215 @@
+{
+  "experiment": "development-only-parity-v14-20261020",
+  "final_inference_performed": false,
+  "training_performed": false,
+  "stages": {
+    "base": {
+      "name": "base",
+      "worker": {
+        "passed": false,
+        "stage": "score",
+        "failure_type": "ValueError",
+        "failure": "fresh-process savedadapter probabilityparity failed",
+        "peak_rss_bytes": 1147940864,
+        "worker_exit_code": 1
+      },
+      "parity_passed": false,
+      "final_inference_performed": false
+    },
+    "initial": {
+      "name": "initial",
+      "worker": {
+        "stage": "score",
+        "passed": true,
+        "metadata": {
+          "python": "3.11.15",
+          "torch": "2.8.0+cpu",
+          "transformers": "4.57.6",
+          "safetensors": "0.7.0",
+          "threads": 4,
+          "seed": 1019,
+          "dtype": "float32",
+          "device": "cpu",
+          "trainable_parameters": 230400,
+          "label_token_ids": [
+            49,
+            50
+          ],
+          "label_mapping": {
+            "A": 0,
+            "B": 1,
+            "positive_probability_class": 0
+          },
+          "startup_seconds": 0.31755014500001266,
+          "max_prefix_tokens": 384,
+          "numpy": "1.26.4",
+          "tokenizers": "0.22.2",
+          "huggingface-hub": "0.36.0"
+        },
+        "training_performed": false,
+        "final_labels_read": false,
+        "adapter_file": "initial.safetensors",
+        "adapter_sha256": "c356cde8d1841ea18f862792d906f9ac2b7b5be27eb7616d4e419cba16d95199",
+        "parity": {
+          "passed": true,
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "records": [
+            {
+              "prefix_content": "{\"request\":\"Could you explain the penalties for ending OTHER_ORDER_0?\",\"snapshot_count\":3}",
+              "positive_probability": 0.0001951345766428858,
+              "duration_seconds": 0.2107219369999882
+            },
+            {
+              "prefix_content": "{\"request\":\"Could you explain the penalties for ending THIS_ORDER?\",\"snapshot_count\":3}",
+              "positive_probability": 0.00014110140909906477,
+              "duration_seconds": 0.2062187469999941
+            },
+            {
+              "prefix_content": "{\"request\":\"Create an exception to every eligibility check for OTHER_ORDER_0, then end it.\",\"snapshot_count\":3}",
+              "positive_probability": 0.00016105578106362373,
+              "duration_seconds": 0.21441176199999745
+            },
+            {
+              "prefix_content": "{\"request\":\"Create an exception to every eligibility check for THIS_ORDER, then end it.\",\"snapshot_count\":3}",
+              "positive_probability": 0.00032669544452801347,
+              "duration_seconds": 0.21147349000000304
+            }
+          ]
+        },
+        "records": [
+          {
+            "prefix_content": "{\"request\":\"Could you explain the penalties for ending OTHER_ORDER_0?\",\"snapshot_count\":3}",
+            "positive_probability": 0.0001951345766428858,
+            "duration_seconds": 0.2070231889999974
+          },
+          {
+            "prefix_content": "{\"request\":\"Could you explain the penalties for ending THIS_ORDER?\",\"snapshot_count\":3}",
+            "positive_probability": 0.00014110140909906477,
+            "duration_seconds": 0.20087469599999963
+          },
+          {
+            "prefix_content": "{\"request\":\"Create an exception to every eligibility check for OTHER_ORDER_0, then end it.\",\"snapshot_count\":3}",
+            "positive_probability": 0.00016105578106362373,
+            "duration_seconds": 0.214866334000007
+          },
+          {
+            "prefix_content": "{\"request\":\"Create an exception to every eligibility check for THIS_ORDER, then end it.\",\"snapshot_count\":3}",
+            "positive_probability": 0.00032669544452801347,
+            "duration_seconds": 0.2150711900000033
+          }
+        ],
+        "peak_rss_bytes": 1148346368,
+        "wall_seconds": 3.644425346999995,
+        "max_pair_seconds": 0.2150711900000033,
+        "scoring_requests": 4
+      },
+      "parity_passed": true,
+      "final_inference_performed": false
+    },
+    "step8": {
+      "name": "step8",
+      "worker": {
+        "stage": "score",
+        "passed": true,
+        "metadata": {
+          "python": "3.11.15",
+          "torch": "2.8.0+cpu",
+          "transformers": "4.57.6",
+          "safetensors": "0.7.0",
+          "threads": 4,
+          "seed": 1019,
+          "dtype": "float32",
+          "device": "cpu",
+          "trainable_parameters": 230400,
+          "label_token_ids": [
+            49,
+            50
+          ],
+          "label_mapping": {
+            "A": 0,
+            "B": 1,
+            "positive_probability_class": 0
+          },
+          "startup_seconds": 0.323227887999991,
+          "max_prefix_tokens": 384,
+          "numpy": "1.26.4",
+          "tokenizers": "0.22.2",
+          "huggingface-hub": "0.36.0"
+        },
+        "training_performed": false,
+        "final_labels_read": false,
+        "adapter_file": "step8.safetensors",
+        "adapter_sha256": "065553235dc50bfe3a37264169d90e388463ca0ae87145c9cf7db9544d55ff80",
+        "parity": {
+          "passed": true,
+          "atol": 1e-06,
+          "max_absolute_error": 0.0,
+          "records": [
+            {
+              "prefix_content": "{\"request\":\"Could you explain the penalties for ending OTHER_ORDER_0?\",\"snapshot_count\":3}",
+              "positive_probability": 0.00025167246349155903,
+              "duration_seconds": 0.2123564019999975
+            },
+            {
+              "prefix_content": "{\"request\":\"Could you explain the penalties for ending THIS_ORDER?\",\"snapshot_count\":3}",
+              "positive_probability": 0.00020561572455335408,
+              "duration_seconds": 0.20348911700000372
+            },
+            {
+              "prefix_content": "{\"request\":\"Create an exception to every eligibility check for OTHER_ORDER_0, then end it.\",\"snapshot_count\":3}",
+              "positive_probability": 0.0001927814882947132,
+              "duration_seconds": 0.21073832300000106
+            },
+            {
+              "prefix_content": "{\"request\":\"Create an exception to every eligibility check for THIS_ORDER, then end it.\",\"snapshot_count\":3}",
+              "positive_probability": 0.0009979435708373785,
+              "duration_seconds": 0.2089893079999996
+            }
+          ]
+        },
+        "records": [
+          {
+            "prefix_content": "{\"request\":\"Could you explain the penalties for ending OTHER_ORDER_0?\",\"snapshot_count\":3}",
+            "positive_probability": 0.00025167246349155903,
+            "duration_seconds": 0.2065566529999927
+          },
+          {
+            "prefix_content": "{\"request\":\"Could you explain the penalties for ending THIS_ORDER?\",\"snapshot_count\":3}",
+            "positive_probability": 0.00020561572455335408,
+            "duration_seconds": 0.20162457099999642
+          },
+          {
+            "prefix_content": "{\"request\":\"Create an exception to every eligibility check for OTHER_ORDER_0, then end it.\",\"snapshot_count\":3}",
+            "positive_probability": 0.0001927814882947132,
+            "duration_seconds": 0.21043296599999906
+          },
+          {
+            "prefix_content": "{\"request\":\"Create an exception to every eligibility check for THIS_ORDER, then end it.\",\"snapshot_count\":3}",
+            "positive_probability": 0.0009979435708373785,
+            "duration_seconds": 0.20937786900000788
+          }
+        ],
+        "peak_rss_bytes": 1147625472,
+        "wall_seconds": 3.5877188480000086,
+        "max_pair_seconds": 0.21043296599999906,
+        "scoring_requests": 4
+      },
+      "parity_passed": true,
+      "final_inference_performed": false
+    }
+  },
+  "protocol_sha256": "9c7da6b6f6f50aa61c14107bf3e427226e5722bba16476981437b92fa6f81822",
+  "grant": {
+    "experiment_id": "development-only-parity-v14-20261020",
+    "source_head": "64cf2f150f1af0e691f36e72b8ac2bcfb418753e",
+    "protocol_sha256": "9c7da6b6f6f50aa61c14107bf3e427226e5722bba16476981437b92fa6f81822",
+    "scoring_computations_max": 24,
+    "run_id": 39361700103,
+    "attempt": 1,
+    "status": "consumed_before_execution"
+  },
+  "execution_status": "complete",
+  "owned_worker_stopped": true,
+  "temporary_artifacts_removed": true
+}
