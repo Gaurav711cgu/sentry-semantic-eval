@@ -9,6 +9,11 @@ credentials or customer data are published. All evaluation sources are exposed.
 
 ## Current measured state
 
+Latest completed result: [V15](RESULTS_V15.md) repaired fresh-process runtime
+verification but failed frozen semantics: selected adapter174/216 raw (80.6%),
+24/36 eligible hits. No promotion. Development gains did not generalize; all
+failures remain visible.
+
 The learned component freezes SmolLM2-135M-Instruct and trains 230,400 rank-four
 q/v LoRA parameters using binary next-token classification. It scores every
 listed or mentioned order without eligibility filtering, then escalates unless
