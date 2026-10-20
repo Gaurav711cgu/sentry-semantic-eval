@@ -1,0 +1,142 @@
+{
+  "scope": "Stratified training-pair diagnostic; not a new final",
+  "new_training_steps": 0,
+  "scoring_computations_completed": 216,
+  "models": {
+    "initial": {
+      "correct": 102,
+      "pairs": 104,
+      "threshold": 0.5,
+      "by_family": {
+        "absent": {
+          "correct": 14,
+          "pairs": 15
+        },
+        "ambiguous": {
+          "correct": 6,
+          "pairs": 6
+        },
+        "conditional": {
+          "correct": 7,
+          "pairs": 7
+        },
+        "direct": {
+          "correct": 14,
+          "pairs": 14
+        },
+        "distractor": {
+          "correct": 14,
+          "pairs": 15
+        },
+        "informational": {
+          "correct": 7,
+          "pairs": 7
+        },
+        "instruction_injection": {
+          "correct": 7,
+          "pairs": 7
+        },
+        "multiple": {
+          "correct": 6,
+          "pairs": 6
+        },
+        "negated": {
+          "correct": 7,
+          "pairs": 7
+        },
+        "policy_override": {
+          "correct": 7,
+          "pairs": 7
+        },
+        "quoted": {
+          "correct": 7,
+          "pairs": 7
+        },
+        "revoked": {
+          "correct": 6,
+          "pairs": 6
+        }
+      },
+      "by_v14_first8_step_membership": {
+        "False": {
+          "correct": 60,
+          "pairs": 60
+        },
+        "True": {
+          "correct": 42,
+          "pairs": 44
+        }
+      },
+      "parity_max_error": 0.0
+    },
+    "step8": {
+      "correct": 101,
+      "pairs": 104,
+      "threshold": 0.8,
+      "by_family": {
+        "absent": {
+          "correct": 14,
+          "pairs": 15
+        },
+        "ambiguous": {
+          "correct": 6,
+          "pairs": 6
+        },
+        "conditional": {
+          "correct": 7,
+          "pairs": 7
+        },
+        "direct": {
+          "correct": 14,
+          "pairs": 14
+        },
+        "distractor": {
+          "correct": 14,
+          "pairs": 15
+        },
+        "informational": {
+          "correct": 7,
+          "pairs": 7
+        },
+        "instruction_injection": {
+          "correct": 7,
+          "pairs": 7
+        },
+        "multiple": {
+          "correct": 6,
+          "pairs": 6
+        },
+        "negated": {
+          "correct": 7,
+          "pairs": 7
+        },
+        "policy_override": {
+          "correct": 6,
+          "pairs": 7
+        },
+        "quoted": {
+          "correct": 7,
+          "pairs": 7
+        },
+        "revoked": {
+          "correct": 6,
+          "pairs": 6
+        }
+      },
+      "by_v14_first8_step_membership": {
+        "False": {
+          "correct": 60,
+          "pairs": 60
+        },
+        "True": {
+          "correct": 41,
+          "pairs": 44
+        }
+      },
+      "parity_max_error": 0.0
+    }
+  },
+  "report_sha256": "39f1ddf4ebeeaa00a734ae417bf87cadeb5083d50608e1c9b99b788fde8e86de",
+  "measured_demo_qualified": false,
+  "independent_final_qualified": false
+}
