@@ -1,0 +1,9 @@
+{
+  "experiment_id": "training-fit-transfer-v18-20261020",
+  "source_head": "6c1403e4d92257e4441dc48fad1f20d280b067df",
+  "protocol_sha256": "510aac35525e0bfec61780acdd74236cd4a901280e3aacedeb36aa4f8a7df1da",
+  "scoring_computations_max": 372,
+  "run_id": 39424724491,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
