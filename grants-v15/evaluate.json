@@ -1,0 +1,9 @@
+{
+  "experiment_id": "frozen-saved-adapter-v15-20261020",
+  "source_head": "109a50cd87323c69903ac6f6e7c2bf2c4bcfb61f",
+  "protocol_sha256": "65e99621f67ad364b62c28af8bd60029e293ac5e30a96155609aaab9e5d11e2b",
+  "scoring_computations_max": 281,
+  "run_id": 39362875509,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
