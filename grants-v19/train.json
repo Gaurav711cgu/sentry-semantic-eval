@@ -1,0 +1,9 @@
+{
+  "experiment_id": "paired-construction-causal-lm-v19-20261020",
+  "source_head": "8ee786b215f9b842531462eb08982744657b5f94",
+  "protocol_sha256": "c3213c020374702efe0c5252cadde45999f37eb7887676dd37da406e7035df51",
+  "optimizer_steps_max": 128,
+  "run_id": 39426954188,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
