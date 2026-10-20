@@ -1,0 +1,9 @@
+{
+  "experiment_id": "development-only-parity-v14-20261020",
+  "source_head": "64cf2f150f1af0e691f36e72b8ac2bcfb418753e",
+  "protocol_sha256": "9c7da6b6f6f50aa61c14107bf3e427226e5722bba16476981437b92fa6f81822",
+  "scoring_computations_max": 24,
+  "run_id": 39361700103,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
