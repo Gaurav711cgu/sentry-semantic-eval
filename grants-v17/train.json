@@ -1,0 +1,9 @@
+{
+  "experiment_id": "broader-language-causal-lm-v17-20261020",
+  "source_head": "b07dc1b2f8e5898b94fde6569add55a899950c3f",
+  "protocol_sha256": "9be032ccd401183723a1c093fab11fa66206e8f612dedcf6310ff3843ac56829",
+  "optimizer_steps_max": 128,
+  "run_id": 39420204582,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
