@@ -1,0 +1,9 @@
+{
+  "experiment_id": "training-fit-diagnostic-v16-20261020",
+  "source_head": "a91ef317871c25f39e12592d843e018090361bd7",
+  "protocol_sha256": "ae3a5b79745ff5f1dab8b3e87b710d2df3a24ec608e92e811c796769e828bc38",
+  "scoring_computations_max": 216,
+  "run_id": 39418442762,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
