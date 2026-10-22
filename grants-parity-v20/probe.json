@@ -1,0 +1,9 @@
+{
+  "experiment_id": "selected-adapter-serving-parity-v20-20261022",
+  "source_head": "4913c58c23576639583c26a262bb55cd386f85fc",
+  "protocol_sha256": "39c637e38b3a9a6aa3a4403c1bf4d48be52eedc4ae851a1c87251d1455b703a6",
+  "scoring_computations_max": 8,
+  "run_id": 39770663502,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
