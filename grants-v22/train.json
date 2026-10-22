@@ -1,0 +1,10 @@
+{
+  "experiment_id": "task-native-nli-v22-20261022",
+  "source_head": "90f523523417987197139c995016d2ec6df259a9",
+  "protocol_sha256": "57196391379cd93a4278db510f9a116d2dcbe33c8f1f7e8c666973e7af2278e7",
+  "optimizer_steps_max": 128,
+  "scoring_computations_max": 833,
+  "run_id": 39811733095,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
