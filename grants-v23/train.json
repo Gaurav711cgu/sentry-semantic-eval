@@ -1,0 +1,10 @@
+{
+  "experiment_id": "task-native-nli-v23-execution-recovery-20261022",
+  "source_head": "5e6cf31cbd337f82e6dd81465590f92ede1f314c",
+  "protocol_sha256": "7fde03709396e71df7655c56a2c7b480058dbd50f12a5e82f391e216477b3e20",
+  "optimizer_steps_max": 128,
+  "scoring_computations_max": 833,
+  "run_id": 39814754345,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
