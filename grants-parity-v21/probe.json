@@ -1,0 +1,9 @@
+{
+  "experiment_id": "selected-adapter-parity-mismatch-diagnostic-v21-20261022",
+  "source_head": "a40894ad604c1f52c3189a06664d15e170369dba",
+  "protocol_sha256": "b335d5df91f2920ef3cd2d9e2cf8881af74e2719cc1daa88f21ff4687750a1f5",
+  "scoring_computations_max": 8,
+  "run_id": 39771124445,
+  "attempt": 1,
+  "status": "consumed_before_execution"
+}
