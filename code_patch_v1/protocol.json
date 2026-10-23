@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+  "prompt_sha256": "dabeeb99801c69fcec535dbc63a90974944d0cb4ec5f8c2d3382e739162361c0",
+  "max_input_tokens": 8192,
+  "max_new_tokens": 2048,
+  "candidates": 1,
+  "do_sample": false,
+  "scope": "exposed development, function-localized input; no independent qualification",
+  "reference_in_input": false
+}
