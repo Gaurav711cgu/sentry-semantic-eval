@@ -1,0 +1,27 @@
+name: Real issue model patch development v2
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  generate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Install CPU runtime
+        run: |
+          pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers==4.57.6 safetensors==0.7.0 tokenizers==0.22.2 huggingface-hub==0.36.0
+      - name: Generate one patch; never execute generated code
+        run: timeout --signal=TERM --kill-after=10s 900s python code_patch_v2/generate.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: code-patch-v2-evidence
+          path: code_patch_v2/
